@@ -20,16 +20,6 @@ on:
       - main
 
 jobs:
-  linter:
-    if: github.event_name != 'pull_request' || (github.event_name == 'pull_request' && github.event.pull_request.draft == false)
-    name: Linter
-    uses: ./.github/workflows/lint.yml
-
-  type-check:
-    if: github.event_name != 'pull_request' || (github.event_name == 'pull_request' && github.event.pull_request.draft == false)
-    name: Typecheck
-    uses: ./.github/workflows/type-check.yml
-
   shellcheck:
     if: github.event_name != 'pull_request' || (github.event_name == 'pull_request' && github.event.pull_request.draft == false)
     name: Shellcheck

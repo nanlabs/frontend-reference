@@ -1,4 +1,0 @@
-{
-  "extends": ["//"],
-  "globalEnv": ["DEBUG"]
-}
