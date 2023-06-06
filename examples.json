@@ -2,6 +2,69 @@
   "$schema": "https://raw.githubusercontent.com/nanlabs/awesome-nan/main/examples.schema.json",
   "list": [
     {
+      "name": "@nanlabs/react-hooks",
+      "description": "This package contains different React hooks that can be used in different projects.",
+      "url": "https://www.npmjs.com/package/@nanlabs/react-hooks",
+      "tags": ["Node Packages"],
+      "labels": ["React", "Hooks", "Custom Hooks"]
+    },
+    {
+      "name": "@nanlabs/react-ui",
+      "description": "This library provides a set of React components that can be used in any React application",
+      "url": "https://www.npmjs.com/package/@nanlabs/react-ui",
+      "tags": ["Node Packages"],
+      "labels": ["React", "Components", "UI", "Design System"]
+    },
+    {
+      "name": "@nanlabs/react-thirdparty",
+      "description": "This library provides a set of React components that can be used in any React application. It provides integrations with third party libraries like Google ReCaptcha and more!",
+      "url": "https://www.npmjs.com/package/@nanlabs/react-thirdparty",
+      "tags": ["Node Packages"],
+      "labels": ["React", "Components", "UI", "Design System", "Third Party"]
+    },
+    {
+      "name": "@nanlabs/thirdparty",
+      "description": "This library provides a set of tools that can be used in any web application. It provides integrations with third party libraries like Google ReCaptcha and more!",
+      "url": "https://www.npmjs.com/package/@nanlabs/thirdparty",
+      "tags": ["Node Packages"],
+      "labels": ["Third Party"]
+    },
+    {
+      "name": "@nanlabs/fp",
+      "description": "This library provides a set of tools to help you write functional code in TypeScript. It includes tools for type guards, error handling, and more!",
+      "url": "https://www.npmjs.com/package/@nanlabs/fp",
+      "tags": ["Node Packages"],
+      "labels": ["Functional Programming", "TypeScript"]
+    },
+    {
+      "name": "@nanlabs/eslint-config",
+      "description": "This eslint config is used in our projects to enforce a consistent code style.",
+      "url": "https://www.npmjs.com/package/@nanlabs/eslint-config",
+      "tags": ["Node Packages"],
+      "labels": ["ESLint"]
+    },
+    {
+      "name": "@nanlabs/eslint-config-ts",
+      "description": "This eslint config is used in our projects to enforce a consistent code style for TypeScript projects.",
+      "url": "https://www.npmjs.com/package/@nanlabs/eslint-config-ts",
+      "tags": ["Node Packages"],
+      "labels": ["ESLint", "TypeScript"]
+    },
+    {
+      "name": "@nanlabs/eslint-config-react",
+      "description": "This eslint config is used in our projects to enforce a consistent code style for React projects.",
+      "url": "https://www.npmjs.com/package/@nanlabs/eslint-config-react",
+      "tags": ["Node Packages"],
+      "labels": ["ESLint", "React", "TypeScript"]
+    },
+    {
+      "name": "@nanlabs/eslint-config-next",
+      "description": "This eslint config is used in our projects to enforce a consistent code style for Next.js projects.",
+      "url": "https://www.npmjs.com/package/@nanlabs/eslint-config-next",
+      "tags": ["Node Packages"],
+      "labels": ["ESLint", "Next.js", "TypeScript"]
+    },
+    {
       "name": "Storybook Playground",
       "description": "This app was created with the goal to have examples of ours React components, hooks and libraries that are created in different packages in the repository Nancy.js.",
       "url": "https://github.com/nanlabs/nancy.js/tree/main/apps/playground/",
