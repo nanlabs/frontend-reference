@@ -25,6 +25,7 @@ This repository contains different Frontend related resources like applications,
 
 ## Contents
 
+- [Node Packages](#node-packages)
 - [Applications](#applications)
 - [Examples](#examples)
 
@@ -35,6 +36,20 @@ This repository contains different Frontend related resources like applications,
 
 - [Contributing](#contributing)
 - [Contributors](#contributors)
+
+## Node Packages
+
+| Name                                                                                       | Description                                                                                                                                                                    | Keywords                                                    |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
+| [@nanlabs/eslint-config](https://www.npmjs.com/package/@nanlabs/eslint-config)             | This eslint config is used in our projects to enforce a consistent code style.                                                                                                 | _ESLint_                                                    |
+| [@nanlabs/eslint-config-next](https://www.npmjs.com/package/@nanlabs/eslint-config-next)   | This eslint config is used in our projects to enforce a consistent code style for Next.js projects.                                                                            | _ESLint_, _Next.js_, _TypeScript_                           |
+| [@nanlabs/eslint-config-react](https://www.npmjs.com/package/@nanlabs/eslint-config-react) | This eslint config is used in our projects to enforce a consistent code style for React projects.                                                                              | _ESLint_, _React_, _TypeScript_                             |
+| [@nanlabs/eslint-config-ts](https://www.npmjs.com/package/@nanlabs/eslint-config-ts)       | This eslint config is used in our projects to enforce a consistent code style for TypeScript projects.                                                                         | _ESLint_, _TypeScript_                                      |
+| [@nanlabs/fp](https://www.npmjs.com/package/@nanlabs/fp)                                   | This library provides a set of tools to help you write functional code in TypeScript. It includes tools for type guards, error handling, and more!                             | _Functional Programming_, _TypeScript_                      |
+| [@nanlabs/react-hooks](https://www.npmjs.com/package/@nanlabs/react-hooks)                 | This package contains different React hooks that can be used in different projects.                                                                                            | _React_, _Hooks_, _Custom Hooks_                            |
+| [@nanlabs/react-thirdparty](https://www.npmjs.com/package/@nanlabs/react-thirdparty)       | This library provides a set of React components that can be used in any React application. It provides integrations with third party libraries like Google ReCaptcha and more! | _React_, _Components_, _UI_, _Design System_, _Third Party_ |
+| [@nanlabs/react-ui](https://www.npmjs.com/package/@nanlabs/react-ui)                       | This library provides a set of React components that can be used in any React application                                                                                      | _React_, _Components_, _UI_, _Design System_                |
+| [@nanlabs/thirdparty](https://www.npmjs.com/package/@nanlabs/thirdparty)                   | This library provides a set of tools that can be used in any web application. It provides integrations with third party libraries like Google ReCaptcha and more!              | _Third Party_                                               |
 
 ## Applications
 
