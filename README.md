@@ -26,7 +26,7 @@ This repository contains different Frontend related resources like applications,
 ## Contents
 
 - [Node Packages](#node-packages)
-- [Applications](#applications)
+- [Apps and Boilerplates](#apps-and-boilerplates)
 - [Examples](#examples)
 
   - [DevOps](#devops)
@@ -51,7 +51,7 @@ This repository contains different Frontend related resources like applications,
 | [@nanlabs/react-ui](https://www.npmjs.com/package/@nanlabs/react-ui)                       | This library provides a set of React components that can be used in any React application                                                                                      | _React_, _Components_, _UI_, _Design System_                |
 | [@nanlabs/thirdparty](https://www.npmjs.com/package/@nanlabs/thirdparty)                   | This library provides a set of tools that can be used in any web application. It provides integrations with third party libraries like Google ReCaptcha and more!              | _Third Party_                                               |
 
-## Applications
+## Apps and Boilerplates
 
 | Name                                                                                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                               | Keywords                                                                                                                                            |
 | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
