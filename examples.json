@@ -2,6 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/nanlabs/awesome-nan/main/examples.schema.json",
   "list": [
     {
+      "name": "Storybook Playground",
+      "description": "This app was created with the goal to have examples of ours React components, hooks and libraries that are created in different packages in the repository Nancy.js.",
+      "url": "https://github.com/nanlabs/nancy.js/tree/main/apps/playground/",
+      "tags": ["Apps and Boilerplates"],
+      "labels": ["React", "Storybook", "Nancy.js"]
+    },
+    {
       "name": "@nanlabs/react-hooks",
       "description": "This package contains different React hooks that can be used in different projects.",
       "url": "https://www.npmjs.com/package/@nanlabs/react-hooks",
@@ -63,13 +70,6 @@
       "url": "https://www.npmjs.com/package/@nanlabs/eslint-config-next",
       "tags": ["Node Packages"],
       "labels": ["ESLint", "Next.js", "TypeScript"]
-    },
-    {
-      "name": "Storybook Playground",
-      "description": "This app was created with the goal to have examples of ours React components, hooks and libraries that are created in different packages in the repository Nancy.js.",
-      "url": "https://github.com/nanlabs/nancy.js/tree/main/apps/playground/",
-      "tags": ["Apps and Boilerplates"],
-      "labels": ["React", "Storybook", "Nancy.js"]
     },
     {
       "name": "Node Package Managers",
