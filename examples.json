@@ -258,13 +258,6 @@
       "description": "This example shows how to use React Easy State to manage state.",
       "tags": ["Examples > Frontend > React State Management"],
       "labels": ["React", "React Easy State"]
-    },
-    {
-      "name": "Microfrontend",
-      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend/",
-      "description": "Different microfrontend implementation scenarios are included in this section.",
-      "tags": ["Examples > Frontend > Microfrontend"],
-      "labels": ["React", "Vue", "Module federation", "Vite", "Webpack"]
     }
   ]
 }
