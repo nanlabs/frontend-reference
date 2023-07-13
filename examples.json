@@ -260,11 +260,49 @@
       "labels": ["React", "React Easy State"]
     },
     {
-      "name": "Microfrontend",
-      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend/",
-      "description": "Different microfrontend implementation scenarios are included in this section.",
+      "name": "Microfrontend with Shared React Router and React Components",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-app-react-components/",
+      "description": "This example has a microfrontend project that demonstrates the usage of a shared router in a React application",
       "tags": ["Examples > Frontend > Microfrontend"],
-      "labels": ["React", "Vue", "Module federation", "Vite", "Webpack"]
+      "labels": [
+        "React",
+        "Vue",
+        "Module federation",
+        "Vite",
+        "Webpack",
+        "Shared router",
+        "Microfrontend"
+      ]
+    },
+    {
+      "name": "Microfrontend with Shared React Router and React Application",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-shell-react-app-shared-routing/",
+      "description": "project that demonstrates the usage of a shared router in a container application made with React and an independent application made with React and Vite",
+      "tags": ["Examples > Frontend > Microfrontend"],
+      "labels": [
+        "React",
+        "Vue",
+        "Module federation",
+        "Vite",
+        "Webpack",
+        "Shared router",
+        "Microfrontend"
+      ]
+    },
+    {
+      "name": "Microfrontend with Shared React Router and Vue Application",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-shell-react-vue-app/",
+      "description": "This example has a microfrontend project that demonstrates the usage of a shared router in a container application made with React and an independent application made with Vue and Vite",
+      "tags": ["Examples > Frontend > Microfrontend"],
+      "labels": [
+        "React",
+        "Vue",
+        "Module federation",
+        "Vite",
+        "Webpack",
+        "Shared router",
+        "Microfrontend"
+      ]
     }
   ]
 }
