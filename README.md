@@ -33,6 +33,7 @@ This repository contains different Frontend related resources like applications,
     - [Node Package Managers](#node-package-managers)
   - [Frontend](#frontend)
     - [React State Management](#react-state-management)
+    - [Microfrontend](#microfrontend)
 
 - [Contributing](#contributing)
 - [Contributors](#contributors)
@@ -97,6 +98,12 @@ This repository contains different Frontend related resources like applications,
 | [Valtio](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/bidirectional-valtio/)                   | This example shows how to use Valtio to manage state.                                         | _React_, _Valtio_           |
 | [XState](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/fsm-xstate/)                             | This example shows how to use XState to manage state.                                         | _React_, _XState_           |
 | [Zustand](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/unidirectional-zustand/)                | This example shows how to use Zustand to manage state.                                        | _React_, _Zustand_          |
+
+#### Microfrontend
+
+| Name                                                                                             | Description                                                                    | Keywords                                               |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------ |
+| [Microfrontend](https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend/) | Different microfrontend implementation scenarios are included in this section. | _React_, _Vue_, _Module federation_, _Vite_, _Webpack_ |
 
 ## Contributing
 
