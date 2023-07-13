@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="p5bJBpKm0-FYctG5MXWt" name="Page-1">
+        <mxGraphModel dx="1040" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="67" value="MICROFRONTEND" style="swimlane;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;resizable=0;containerType=tree;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="60" width="590" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;" vertex="1" parent="67">
+                    <mxGeometry x="170" y="170" width="240" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="REACT-APP" style="swimlane;startSize=40;" vertex="1" parent="67">
+                    <mxGeometry x="20" y="50" width="150" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="- IS THE MAIN APP" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="83">
+                    <mxGeometry x="10" y="50" width="120" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="- COMPONENTS ARE PROVIDED BY REACT-COMPONENTS" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="83">
+                    <mxGeometry x="10" y="80" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="- IS USING ZUSTAND TO MANAGE THE GLOBAL STATE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="83">
+                    <mxGeometry x="10" y="150" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="- WAS MADE WITH VITE &amp;amp; USES VITE-PLUGIN-FEDERATION" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="83">
+                    <mxGeometry x="10" y="210" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="REACT-COMPONENTS" style="swimlane;startSize=40;" vertex="1" parent="67">
+                    <mxGeometry x="410" y="50" width="160" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="- EXPOSING REACT COMPONENTS" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="84">
+                    <mxGeometry x="10" y="60" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="- HAS STORYBOOK" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="84">
+                    <mxGeometry x="10" y="110" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="- NO STATE MANAGER" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="84">
+                    <mxGeometry x="10" y="150" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="- WAS MADE WITH VITE &amp;amp; USES VITE-PLUGIN-FEDERATION" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="84">
+                    <mxGeometry x="10" y="180" width="130" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
