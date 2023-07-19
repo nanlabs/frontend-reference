@@ -2,7 +2,7 @@
 
 Welcome to our guide on optimizing website performance and improving SEO using Core Web Vitals! 🚀
 
-In today's digital world, ensuring a high-performing website and strong visibility in search engines are key to success. In this guide, we will explore two essential concepts: SEO (Search Engine Optimization) and Core Web Vitals. Let's dive in and discover what they are and how they can supercharge your website!
+In today's digital world, ensuring a high-performing website and strong visibility in search engines are key to success. In this guide, we will explore two essential concepts: SEO (Search Engine Optimization) and [Core Web Vitals](https://web.dev/vitals/). Let's dive in and discover what they are and how they can supercharge your website!
 
 ## SEO: Driving Organic Traffic 🚀
 
@@ -10,7 +10,7 @@ SEO is the art of optimizing your website to rank higher in search engine result
 
 ## Core Web Vitals: Unlocking an Exceptional User Experience 🌈
 
-Core Web Vitals are vital performance metrics that measure the user experience on your website. They focus on crucial aspects that directly impact user satisfaction and engagement. Let's explore the three main Core Web Vitals:
+[Core Web Vitals](https://web.dev/vitals/) are vital performance metrics that measure the user experience on your website. They focus on crucial aspects that directly impact user satisfaction and engagement. Let's explore the three main Core Web Vitals:
 
 - Largest Contentful Paint (LCP) ⏱️: Measures how quickly the main content of a page loads. A fast LCP ensures a delightful and engaging user experience.
 
