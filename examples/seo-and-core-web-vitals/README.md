@@ -26,11 +26,15 @@ Google has emphasized the significance of Core Web Vitals in its search ranking 
 
 In addition to Core Web Vitals, there are other important metrics used for SEO. These include:
 
-- **Page load time**: The time it takes for your web page to fully load.
-- **Mobile-friendliness**: How well your website performs and displays on mobile devices.
-- **HTTPS security**: Whether your website uses secure HTTPS protocol.
-- **Content quality**: The relevance, uniqueness, and value of your website content.
-- **User engagement**: How users interact with your website, including time on site, bounce rate, and click-through rates.
+- Page load time: The time it takes for your web page to fully load.
+
+- Mobile-friendliness: How well your website performs and displays on mobile devices.
+
+- HTTPS security: Whether your website uses secure HTTPS protocol.
+
+- Content quality: The relevance, uniqueness, and value of your website content.
+
+- User engagement: How users interact with your website, including time on site, bounce rate, and click-through rates.
 
 It's crucial to monitor and optimize these metrics to enhance your website's SEO performance.
 
