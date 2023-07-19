@@ -32,6 +32,7 @@ This repository contains different Frontend related resources like applications,
   - [DevOps](#devops)
     - [Node Package Managers](#node-package-managers)
   - [Frontend](#frontend)
+    - [Website Optimization and Performance](#website-optimization-and-performance)
     - [React State Management](#react-state-management)
     - [Microfrontend](#microfrontend)
 
@@ -71,6 +72,12 @@ This repository contains different Frontend related resources like applications,
 | [Node Package Managers](https://github.com/nanlabs/frontend-reference/tree/main/examples/node-package-managers/) | Comparison of the most popular Node Package Managers: npm, yarn, pnpm. | _Node_, _npm_, _yarn_, _pnpm_ |
 
 ### Frontend
+
+#### Website Optimization and Performance
+
+| Name                                                                                                                                      | Description                                                                                                                                                                        | Keywords                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| [Supercharge Your Website with Core Web Vitals](https://github.com/nanlabs/frontend-reference/tree/main/examples/seo-and-core-web-vitals) | Learn how to optimize your website's performance and improve SEO using Core Web Vitals. Discover the key metrics, tools, and techniques to deliver an exceptional user experience. | _Core Web Vitals_, _SEO_, _Website Performance_, _User Experience_, _Google PageSpeed Insights_, _Lighthouse_, _Web Vitals Extension_ |
 
 #### React State Management
 
