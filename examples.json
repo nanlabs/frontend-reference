@@ -106,6 +106,20 @@
       ]
     },
     {
+      "name": "Supercharge Your Website with Core Web Vitals",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/seo-and-core-web-vitals",
+      "description": "Learn how to optimize your website's performance and improve SEO using Core Web Vitals. Discover the key metrics, tools, and techniques to deliver an exceptional user experience.",
+      "tags": ["Examples > Frontend > Website Optimization and Performance"],
+      "labels": [
+        "Core Web Vitals",
+        "SEO", "Website Performance",
+        "User Experience",
+        "Google PageSpeed Insights",
+        "Lighthouse",
+        "Web Vitals Extension"
+      ]
+    },
+    {
       "name": "Prop Drilling",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/hooks-prop-drilling/",
       "description": "This example shows how to pass data from a parent component to a child component using props.",
