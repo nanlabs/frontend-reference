@@ -22,17 +22,45 @@ SEO is the art of optimizing your website to rank higher in search engine result
 
 Google has emphasized the significance of Core Web Vitals in its search ranking algorithm. These metrics directly influence how well your website performs in search results. By optimizing your Core Web Vitals, you can boost your website's ranking and improve its visibility to potential visitors. 📈
 
+## Metrics for SEO 📊
+
+In addition to Core Web Vitals, there are other important metrics used for SEO. These include:
+
+- **Page load time**: The time it takes for your web page to fully load.
+- **Mobile-friendliness**: How well your website performs and displays on mobile devices.
+- **HTTPS security**: Whether your website uses secure HTTPS protocol.
+- **Content quality**: The relevance, uniqueness, and value of your website content.
+- **User engagement**: How users interact with your website, including time on site, bounce rate, and click-through rates.
+
+It's crucial to monitor and optimize these metrics to enhance your website's SEO performance.
+
 ## Tools to Enhance Core Web Vitals ⚙️
 
 To optimize your Core Web Vitals and boost your website's performance, we recommend utilizing the following tools:
 
-- 🚀 **Google PageSpeed Insights**: [Google PageSpeed Insights](https://pagespeed.web.dev/) provides specific recommendations to enhance your website's speed and performance. It offers valuable insights and suggestions to optimize your Core Web Vitals.
+### Google PageSpeed Insights 🚀
 
-- 🔍 **Lighthouse**: [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) is an open-source auditing tool that evaluates various technical aspects of your website, including performance and accessibility. It provides detailed recommendations for improving your Core Web Vitals.
+Google PageSpeed Insights provides specific recommendations to enhance your website's speed and performance. It analyzes your website and generates a report with valuable insights and suggestions to optimize your Core Web Vitals.
 
-- 🎯 **Web Vitals Extension**: [Web Vitals Extension](https://chrome.google.com/webstore/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma) is a powerful browser tool that provides real-time feedback on your Core Web Vitals as you browse your website. It offers a user-friendly visual indicator, allowing you to identify areas for improvement instantly. 📊
+1. Go to [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights).
+2. Enter your website's URL and click "Analyze".
+3. Review the report generated, which includes suggestions and performance scores.
+4. Follow the recommendations provided to improve your Core Web Vitals and overall website performance.
 
-## How to Use the Web Vitals Extension 🛠️
+### Lighthouse 🔍
+
+Lighthouse is an open-source auditing tool built by Google. It evaluates various technical aspects of your website, including performance, accessibility, and best practices. Lighthouse provides detailed recommendations for improving your Core Web Vitals and overall website quality.
+
+1. Open Google Chrome browser.
+2. Visit the web page you want to analyze.
+3. Right-click anywhere on the page and select "Inspect" from the context menu.
+4. In the DevTools panel, navigate to the "Lighthouse" tab.
+5. Click "Generate report" to analyze the web page.
+6. Review the report generated, which includes performance scores and actionable suggestions for improvement.
+
+### Web Vitals Extension 🎯
+
+[Web Vitals Extension](https://chrome.google.com/webstore/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma) is a powerful browser tool that provides real-time feedback on your Core Web Vitals as you browse your website. It offers a user-friendly visual indicator, allowing you to identify areas for improvement instantly. 📊
 
 <picture>
   <source media="(prefers-color-scheme: dark)" alt="" align="right" width="400px" srcset="https://github.com/nanlabs/frontend-reference/assets/17727170/626001bb-1ebc-494f-ab49-8d70d0acd36f"/>
