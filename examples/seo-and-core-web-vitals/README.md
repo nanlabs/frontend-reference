@@ -50,6 +50,6 @@ By installing the Web Vitals Extension, you gain valuable insights into your web
 
 Simply click on the extension icon to access detailed information about each metric and its performance on your website. This tool empowers you to quickly identify areas that need improvement to meet Google's recommended Core Web Vitals.
 
-# Conclusion 🌟
+## Conclusion 🌟
 
 Optimizing Core Web Vitals is crucial for delivering an exceptional user experience and improving your website's SEO. By implementing the recommendations from tools like Google PageSpeed Insights, Lighthouse, and our Web Vitals Extension, you can unlock the full potential of your website. Stay competitive in today's digital landscape by prioritizing Core Web Vitals and delighting your visitors with outstanding performance! 💪🚀
