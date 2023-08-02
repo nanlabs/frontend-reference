@@ -20,11 +20,11 @@
 
 Once finished and deployed both developments, we did a simple test using pageSpeed (lighthouse) for both projects where the results we observed were the following 🎉🚀📊
 
-> ⚙️ Comparisons were performed using the following environment settings: 
-Emulated Desktop with Lighthouse 10.3.0
-User agent (network): "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36”
-Network throttling: 40 ms TCP RTT, 10,240 kb/s throughput (Simulated)
-Browser location: North America
+> ⚙️ Comparisons were performed using the following environment settings:  
+Emulated Desktop with Lighthouse 10.3.0  
+User agent (network): "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36”  
+Network throttling: 40 ms TCP RTT, 10,240 kb/s throughput (Simulated)  
+Browser location: North America  
 > 
 
 ### Styled-components  **💅**
@@ -53,7 +53,7 @@ In this comparison, apart from the CLS metric, we didn't find any significant di
 
 ## ⚔️ Comparison with [webpagetest](https://www.webpagetest.org/)
 
-> ⚙️ Comparing both solutions on this platform with the following environment setup: 
+> ⚙️ Comparing both solutions on this platform with the following environment setup:  
 Chrome on an Emulated Motorola G (gen 4) tested from Virginia, US on a 9 Mbps 4G connection with 170ms of latency.
 > 
 
