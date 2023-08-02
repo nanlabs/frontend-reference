@@ -31,21 +31,21 @@ Browser location: North America
 
 We were able to observe that all the metrics are good except for "Cumulative Layout Shift", which is due to the fact that layout movement occurs when the images finish loading and they modify the distribution of the elements since we do not reserve the space required by these images while we wait for them to finish loading.
 
-![Untitled](/images/Untitled.png)
+![Untitled](images/Untitled.png)
 
 Next we leave a list of all the images that impact the CLS.
 
-![pagespeed.web.dev_analysis_https-challenge-estilos-vercel-app_zb3a5lj4pb_form_factor=desktop.png](/images/pagespeed.web.dev_analysis_https-challenge-estilos-vercel-app_zb3a5lj4pb_form_factordesktop.png)
+![pagespeed.web.dev_analysis_https-challenge-estilos-vercel-app_zb3a5lj4pb_form_factor=desktop.png](images/pagespeed.web.dev_analysis_https-challenge-estilos-vercel-app_zb3a5lj4pb_form_factordesktop.png)
 
 ### Taildwind CSS **🧩**
 
 In the case of Tailwind CSS, the result was the same, except that the "Cumulative Layout Shift" was lower than in the previous case. This is not due to a specific advantage of Tailwind CSS over styled-components but rather because there are fewer images causing this layout shift. The avatar images are included directly in the JavaScript bundle as base64, so they are already loaded in the first render. Below are the results of the CLS that came out in the analysis.
 
-![pagespeed.web.dev_analysis_https-frontend-challenge-coral-three-vercel-app_6gu073kg8v_form_factor=desktop (2).png](/images/pagespeed.web.dev_analysis_https-frontend-challenge-coral-three-vercel-app_6gu073kg8v_form_factordesktop_(2).png)
+![pagespeed.web.dev_analysis_https-frontend-challenge-coral-three-vercel-app_6gu073kg8v_form_factor=desktop (2).png](images/pagespeed.web.dev_analysis_https-frontend-challenge-coral-three-vercel-app_6gu073kg8v_form_factordesktop_(2).png)
 
 Next we leave a list of all the images that impact the CLS. You can compare this list with the list of styled-component
 
-![pagespeed.web.dev_analysis_https-frontend-challenge-coral-three-vercel-app_6gu073kg8v_form_factor=desktop (4).png](/images/pagespeed.web.dev_analysis_https-frontend-challenge-coral-three-vercel-app_6gu073kg8v_form_factordesktop_(4).png)
+![pagespeed.web.dev_analysis_https-frontend-challenge-coral-three-vercel-app_6gu073kg8v_form_factor=desktop (4).png](images/pagespeed.web.dev_analysis_https-frontend-challenge-coral-three-vercel-app_6gu073kg8v_form_factordesktop_(4).png)
 
 ### Conclusions about [PageSpeed Insights](https://pagespeed.web.dev/)
 
@@ -63,9 +63,9 @@ Starting with the image strategy, let's remember that in the solution of Tailwin
 
 🔄 On the other hand, the styled-components solution generates faster visual progress but, due to the asynchronous loading of images, it causes more CLS. 🚀
 
-![Untitled](/images/Untitled%201.png)
+![Untitled](images/Untitled%201.png)
 
-![Untitled](/images/Untitled%202.png)
+![Untitled](images/Untitled%202.png)
 
 🧐 Let's keep in mind that the time difference is low when looked at in seconds, and we cannot say that one strategy is better than the other in this comparison because, for this test, they fall within the same range of the FCP metric 📊 (Orange: 1.8s–3s). However, it is a good example to understand how this type of strategy to reduce CLS impacts the time of other metrics such as FCP. 
 
@@ -75,9 +75,9 @@ However, there is a noticeable difference in the size of the responses. In the c
 
 On the other hand, in the Tailwind CSS solution, we only find CSS files, as the Tailwind dependency is included as a development dependency. 🎨
 
-![Untitled](/images/Untitled%203.png)
+![Untitled](images/Untitled%203.png)
 
-![Untitled](/images/Untitled%204.png)
+![Untitled](images/Untitled%204.png)
 
 ## **Development Experience 💻🚀**
 
