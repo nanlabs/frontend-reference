@@ -112,7 +112,8 @@
       "tags": ["Examples > Frontend > Website Optimization and Performance"],
       "labels": [
         "Core Web Vitals",
-        "SEO", "Website Performance",
+        "SEO",
+        "Website Performance",
         "User Experience",
         "Google PageSpeed Insights",
         "Lighthouse",
@@ -316,6 +317,19 @@
         "Webpack",
         "Shared router",
         "Microfrontend"
+      ]
+    },
+    {
+      "name": "Comparative Analysis between styled-components and Tailwind CSS",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/styled-components-vs-tailwindcss/",
+      "description": "Article that presents a comparative analysis of styled-components and Tailwind CSS, focusing on practical implementations of a UI Challenge using both libraries.",
+      "tags": ["Examples > Frontend > Styling and CSS"],
+      "labels": [
+        "styled-components",
+        "Tailwind CSS",
+        "CSS",
+        "CSS-in-JS",
+        "Analysis"
       ]
     }
   ]
