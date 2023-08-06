@@ -35,6 +35,7 @@ This repository contains different Frontend related resources like applications,
     - [Website Optimization and Performance](#website-optimization-and-performance)
     - [React State Management](#react-state-management)
     - [Microfrontend](#microfrontend)
+    - [Styling and CSS](#styling-and-css)
 
 - [Contributing](#contributing)
 - [Contributors](#contributors)
@@ -113,6 +114,12 @@ This repository contains different Frontend related resources like applications,
 | [Microfrontend with Shared React Router and React Application](https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-shell-react-app-shared-routing/) | project that demonstrates the usage of a shared router in a container application made with React and an independent application made with React and Vite                                | _React_, _Vue_, _Module federation_, _Vite_, _Webpack_, _Shared router_, _Microfrontend_ |
 | [Microfrontend with Shared React Router and React Components](https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-app-react-components/)            | This example has a microfrontend project that demonstrates the usage of a shared router in a React application                                                                           | _React_, _Vue_, _Module federation_, _Vite_, _Webpack_, _Shared router_, _Microfrontend_ |
 | [Microfrontend with Shared React Router and Vue Application](https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-shell-react-vue-app/)              | This example has a microfrontend project that demonstrates the usage of a shared router in a container application made with React and an independent application made with Vue and Vite | _React_, _Vue_, _Module federation_, _Vite_, _Webpack_, _Shared router_, _Microfrontend_ |
+
+#### Styling and CSS
+
+| Name                                                                                                                                                                  | Description                                                                                                                                                       | Keywords                                                            |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| [Comparative Analysis between styled-components and Tailwind CSS](https://github.com/nanlabs/frontend-reference/tree/main/examples/styled-components-vs-tailwindcss/) | Article that presents a comparative analysis of styled-components and Tailwind CSS, focusing on practical implementations of a UI Challenge using both libraries. | _styled-components_, _Tailwind CSS_, _CSS_, _CSS-in-JS_, _Analysis_ |
 
 ## Contributing
 
