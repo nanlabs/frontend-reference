@@ -51,6 +51,8 @@ Next, we present a list of all the images that impact the CLS in the Tailwind CS
 
 In this comparison, apart from the CLS metric, we didn't find any significant difference between the two approaches. For this simple example, which applies to static landing pages in general, both approaches yield good results based on the defined metrics.
 
+💡 Let's remember that Cumulative Layout Shift (CLS) is a web performance metric that measures the visual stability of a page during its loading. Being a performance metric and part of the "Core Web Vitals," it is important in the context of SEO. These metrics are a set of metrics that search engines use to evaluate the quality of the user experience on a page, and having good results in them helps to achieve better positioning and relevance in search engine results.
+
 ## Comparison with Webpagetest ⚔️ [Webpagetest](https://www.webpagetest.org/)
 
 We used [Webpagetest](https://www.webpagetest.org/) to compare the performance of both projects. This tool allows us to test the performance of a website from different locations and devices. In this case, we tested both solutions on this platform with the following environment setup:  
