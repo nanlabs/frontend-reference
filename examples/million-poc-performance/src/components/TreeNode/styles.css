@@ -1,0 +1,27 @@
+.tree-node {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.tree-name {
+  color: lightblue;
+  flex-grow: 1;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.tree-children {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid teal;
+  padding: 2px;
+}
