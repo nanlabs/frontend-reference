@@ -2,7 +2,7 @@
 
 This project was generated using [create-awesome-node-app](https://www.npmjs.com/package/create-awesome-node-app). **DON'T USE THIS TEMPLATE AS IT!** Generate yours using the command and following the options in the interactive menu. Check the docs for more information!
 
-# Proposal
+## Proposal
 
 We've created some examples to show how Million JS can improve the performance of your React application. You can find the examples in the `src` folder. Each example has a comments with the explanation of the example. We implemented the same examples in React to compare the performance.
 
@@ -24,7 +24,6 @@ We recommend you to use the [React DevTools Profiler](https://reactjs.org/blog/2
 - we saw, in general, Million is faster than React, the improvement in the case of the list starting with 18.84%.
 - the improvement is more noticeable in the tree of items, where the improvement is 157.58% 🔥.
 - Something important to note is Million and React Router are not 100% compatible, we found some issues when we try to use nested routes, in this scenario, the route doesn't work as expected. We found a workaround to fix this issue adding `// million-ignore` in the definition of the Route element component.
-
 
 ## Quickstart
 
