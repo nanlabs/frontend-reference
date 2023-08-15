@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background: #052127;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 0 0 12px 0;
+}
+
+p {
+  margin: 12px 0;
+}
+
+a {
+  color: aquamarine;
+  padding: 0 4px;
+}
