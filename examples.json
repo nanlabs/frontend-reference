@@ -331,6 +331,13 @@
         "CSS-in-JS",
         "Analysis"
       ]
+    },
+    {
+      "name": "Proof of Concept: Million, The Virtual DOM Replacement for React.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/million-poc-performance/",
+      "description": "This is a POC that shows how to use Million and comparative analysis of Performance between Million and React.",
+      "tags": ["Examples > Frontend > Virtual Dom"],
+      "labels": ["Performance", "React", "Virtual Dom", "Rendering", "Million"]
     }
   ]
 }
