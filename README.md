@@ -29,8 +29,6 @@ This repository contains different Frontend related resources like applications,
 - [Node Packages](#node-packages)
 - [Examples](#examples)
 
-  - [DevOps](#devops)
-    - [Node Package Managers](#node-package-managers)
   - [Frontend](#frontend)
     - [Website Optimization and Performance](#website-optimization-and-performance)
     - [React State Management](#react-state-management)
@@ -64,14 +62,6 @@ This repository contains different Frontend related resources like applications,
 | [@nanlabs/thirdparty](https://www.npmjs.com/package/@nanlabs/thirdparty)                   | This library provides a set of tools that can be used in any web application. It provides integrations with third party libraries like Google ReCaptcha and more!              | _Third Party_                                               |
 
 ## Examples
-
-### DevOps
-
-#### Node Package Managers
-
-| Name                                                                                                             | Description                                                            | Keywords                      |
-| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ----------------------------- |
-| [Node Package Managers](https://github.com/nanlabs/frontend-reference/tree/main/examples/node-package-managers/) | Comparison of the most popular Node Package Managers: npm, yarn, pnpm. | _Node_, _npm_, _yarn_, _pnpm_ |
 
 ### Frontend
 
