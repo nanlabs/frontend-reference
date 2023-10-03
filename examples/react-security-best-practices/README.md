@@ -24,10 +24,10 @@ For example:-
 
 While React's default behavior provides a level of XSS protection by escaping content when rendering, it's important to note that it may not cover all cases:
 
-1.  **dangerouslySetInnerHTML**: React provides a mechanism called `dangerouslySetInnerHTML`, which allows you to inject raw HTML into a component. This feature intentionally bypasses React's automatic escaping and should be used with extreme caution. Developers are responsible for ensuring that the HTML content provided through `dangerouslySetInnerHTML` is safe and properly sanitized.
-    
-2.  **Dynamic Attribute Values**: React's default data binding doesn't automatically sanitize attribute values that are set dynamically. If you're dynamically setting attributes like `src`, `href`, or event handlers, you need to ensure that the values are properly sanitized to prevent potential XSS vulnerabilities.
-    
+1. **dangerouslySetInnerHTML**: React provides a mechanism called `dangerouslySetInnerHTML`, which allows you to inject raw HTML into a component. This feature intentionally bypasses React's automatic escaping and should be used with extreme caution. Developers are responsible for ensuring that the HTML content provided through `dangerouslySetInnerHTML` is safe and properly sanitized.
+
+2. **Dynamic Attribute Values**: React's default data binding doesn't automatically sanitize attribute values that are set dynamically. If you're dynamically setting attributes like `src`, `href`, or event handlers, you need to ensure that the values are properly sanitized to prevent potential XSS vulnerabilities.
+
 ## Watch Out for Dangerous URLs and URL-Based Script Injection
 
 URLs can contain dynamic script content via javascript: protocol URLs. Use validation to assure your links are http: or https: to avoid javascript: URL-based script injection. Achieve URL validation using a native URL parsing function then match the parsed protocol property to an allow list.
@@ -51,7 +51,7 @@ The above code will prevent javascript files to be injected.
 
 Don’t use this:- `` <a href={attackerControlled}>Click here!</a> ``
 
-One more important thing to add is we need to validate any user input data on both client side + server side to prevent any tampering attempts made by attacker. 
+One more important thing to add is we need to validate any user input data on both client side + server side to prevent any tampering attempts made by attacker.
 
 ## Sanitize and Render HTML
 
@@ -75,14 +75,14 @@ Always avoid accessing the DOM to inject content into DOM nodes directly. But if
 
 **Why Direct DOM Access is Discouraged in React:**
 
-1.  **Breaks the Unidirectional Data Flow**: React follows a unidirectional data flow, which means that data flows in one direction—from parent components to child components. Directly manipulating the DOM breaks this flow by introducing an external source of truth. When you bypass React's virtual DOM and directly manipulate the DOM, React loses control over the component's state and can't accurately track changes. This can lead to unexpected behavior and make your application harder to reason about and maintain.
-    
-2.  **Inefficient and Error-Prone**: React is designed to efficiently update the DOM by using a virtual DOM and a reconciliation process that minimizes actual DOM manipulations. When you directly manipulate the DOM, you risk introducing inefficiencies, such as unnecessary re-renders, and you may encounter difficult-to-debug.
+1. **Breaks the Unidirectional Data Flow**: React follows a unidirectional data flow, which means that data flows in one direction—from parent components to child components. Directly manipulating the DOM breaks this flow by introducing an external source of truth. When you bypass React's virtual DOM and directly manipulate the DOM, React loses control over the component's state and can't accurately track changes. This can lead to unexpected behavior and make your application harder to reason about and maintain.
 
-3.  **Security Concerns**: Direct DOM access can also introduce security vulnerabilities, such as cross-site scripting (XSS). By bypassing React's mechanisms for safely rendering user-generated content, you expose your application to potential security risks.
-    
-4.  **Maintenance Challenges**: Code that relies on direct DOM access can become harder to maintain over time, especially in larger applications or when multiple developers are involved. React's component-based architecture and declarative approach make it easier to understand and maintain your codebase.
-  
+2. **Inefficient and Error-Prone**: React is designed to efficiently update the DOM by using a virtual DOM and a reconciliation process that minimizes actual DOM manipulations. When you directly manipulate the DOM, you risk introducing inefficiencies, such as unnecessary re-renders, and you may encounter difficult-to-debug.
+
+3. **Security Concerns**: Direct DOM access can also introduce security vulnerabilities, such as cross-site scripting (XSS). By bypassing React's mechanisms for safely rendering user-generated content, you expose your application to potential security risks.
+
+4. **Maintenance Challenges**: Code that relies on direct DOM access can become harder to maintain over time, especially in larger applications or when multiple developers are involved. React's component-based architecture and declarative approach make it easier to understand and maintain your codebase.
+
 ### What is react `dangerouslySetInnerHTML` ?
 
 `dangerouslySetInnerHTML` is a property that enables developers to directly insert html content within an HTML element found in a React app.
@@ -103,11 +103,11 @@ Avoid concatenating strings onto the output of `renderToStaticMarkup()` before s
 To avoid XSS, don’t concatenate unsanitized data with the output of `renderToStaticMarkup()`
 
 **Why Concatenating Unsanitized Data with `renderToStaticMarkup()` Output is Risky for XSS Attacks:**
-1.  **Injection of Malicious Code**: If you concatenate unsanitized or untrusted data directly into the HTML generated by `renderToStaticMarkup()`, you open up the possibility of injecting malicious code, such as JavaScript, into your rendered HTML. Attackers can craft payloads that include script tags or other HTML elements, and if these payloads are included in your page, they can execute arbitrary code in the context of your web application.
+1. **Injection of Malicious Code**: If you concatenate unsanitized or untrusted data directly into the HTML generated by `renderToStaticMarkup()`, you open up the possibility of injecting malicious code, such as JavaScript, into your rendered HTML. Attackers can craft payloads that include script tags or other HTML elements, and if these payloads are included in your page, they can execute arbitrary code in the context of your web application.
+
+2. **XSS Attack Surface**: By not properly sanitizing or escaping user-generated data, you create an XSS attack surface. Attackers can exploit this surface to inject scripts that steal user data, perform actions on behalf of users, or otherwise compromise the security and integrity of your application.
     
-2.  **XSS Attack Surface**: By not properly sanitizing or escaping user-generated data, you create an XSS attack surface. Attackers can exploit this surface to inject scripts that steal user data, perform actions on behalf of users, or otherwise compromise the security and integrity of your application.
-    
-3.  **Browser Security Context**: When a browser encounters unsanitized data in your HTML, it interprets it as code to execute, not as plain text. This behavior is what makes XSS attacks possible. Properly escaping or sanitizing data ensures that it is treated as data and not executable code.
+3. **Browser Security Context**: When a browser encounters unsanitized data in your HTML, it interprets it as code to execute, not as plain text. This behavior is what makes XSS attacks possible. Properly escaping or sanitizing data ensures that it is treated as data and not executable code.
 
 ## Check for Known Vulnerabilities in Dependencies
 
