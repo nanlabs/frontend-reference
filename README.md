@@ -36,6 +36,7 @@ This repository contains different Frontend related resources like applications,
     - [Microfrontend](#microfrontend)
     - [Styling and CSS](#styling-and-css)
     - [Virtual Dom](#virtual-dom)
+    - [Security Best Practices](#security-best-practices)
 
 - [Contributing](#contributing)
 - [Contributors](#contributors)
@@ -118,6 +119,12 @@ This repository contains different Frontend related resources like applications,
 | Name                                                                                                                                                           | Description                                                                                                    | Keywords                                                      |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | [Proof of Concept: Million, The Virtual DOM Replacement for React.](https://github.com/nanlabs/frontend-reference/tree/main/examples/million-poc-performance/) | This is a POC that shows how to use Million and comparative analysis of Performance between Million and React. | _Performance_, _React_, _Virtual Dom_, _Rendering_, _Million_ |
+
+#### Security Best Practices
+
+| Name                                                                                                                                  | Description                                                                                                                                                                                                                                                                                                      | Keywords                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| [React Security Best Practices Guide](https://github.com/nanlabs/frontend-reference/tree/main/examples/react-security-best-practices) | This checklist provides React security best practices to assist you and your team in identifying and addressing security issues within your React applications. Additionally, it includes guidance on how to automate security testing for your React code and automatically remedy any security-related issues. | _React_, _Security_, _Best Practices_, _Frontend_, _Automated Testing_, _Security Issues_ |
 
 ## Contributing
 
