@@ -331,6 +331,20 @@
       "description": "This is a POC that shows how to use Million and comparative analysis of Performance between Million and React.",
       "tags": ["Examples > Frontend > Virtual Dom"],
       "labels": ["Performance", "React", "Virtual Dom", "Rendering", "Million"]
+    },
+    {
+      "name": "React Security Best Practices Guide",
+      "description": "This checklist provides React security best practices to assist you and your team in identifying and addressing security issues within your React applications. Additionally, it includes guidance on how to automate security testing for your React code and automatically remedy any security-related issues.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/react-security-best-practices",
+      "tags": ["Examples > Frontend > Security Best Practices"],
+      "labels": [
+        "React",
+        "Security",
+        "Best Practices",
+        "Frontend",
+        "Automated Testing",
+        "Security Issues"
+      ]
     }
   ]
 }
