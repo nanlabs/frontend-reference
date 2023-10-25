@@ -1,37 +1,72 @@
-type DbUser = {
+type Todo = {
   id: string;
-  name: string;
-  lastName: string;
-  email: string;
+  title: string;
+  description: string;
+  completed: boolean;
 }
 
-const USERS = [
+const TODOS: Todo[] = [
   {
-    id: '36088aaf-84b1-4c96-b2a1-905c1ed42494', 
-    name: 'John',
-    lastName: 'Doe',
-    email: 'john.doe@nan-labs.io',
+    id: '1',
+    title: 'Complete Homework',
+    description: 'Finish the assignment for the history class by 5 PM.',
+    completed: false,
   },
   {
-    id: '36088aaf-84b1-4c96-b2a1-905c1ed42495', 
-    name: 'Jane',
-    lastName: 'Doe',
-    email: 'john.doe@nan-labs.io',
+    id: '2',
+    title: 'Buy Groceries',
+    description: 'Purchase fruits, vegetables, and milk from the supermarket.',
+    completed: true,
   },
-]
+  {
+    id: '3',
+    title: 'Call Grandma',
+    description: 'Give Grandma a call to wish her a happy birthday.',
+    completed: false,
+  },
+];
 
 export const db = {
-  user: {
-    create: ({ data }: { data: DbUser }) => {
-      USERS.push(data)
-      return data
+  todo: {
+    create: ({ data }: { data: Todo }) => {
+      TODOS.push(data);
+      return new Promise<Todo>((resolve, reject) => {
+        try {
+          resolve(data)
+        } catch (error) {
+          reject(error)
+        }
+      })
     },
-    findMany: () => USERS,
-    findById: (id: string) => USERS.find(user => user.id === id),
-    update: (id: string, data: DbUser) => {
-      const userIndex = USERS.findIndex(user => user.id === id)
-      USERS[userIndex] = data
-      return data
-    }
+    findMany: () => new Promise<Array<Todo>>((resolve, reject) => {
+      try {
+        resolve(TODOS)
+      } catch (error) {
+        reject(error)
+      }
+    }),
+    findById: (id: string) => new Promise<Todo>((resolve, reject) => {
+      try {
+        const user = TODOS.find(todo => todo.id === id)
+        if (!user) {
+          throw new Error('User not found')
+        }
+        resolve(user)
+      } catch (error) {
+        reject(error)
+      }
+    }),
+    update: (id: string, data: Todo) => new Promise<Todo>((resolve, reject) => {
+      try {
+        const userIndex = TODOS.findIndex(todo => todo.id === id)
+        if (userIndex === -1) {
+          throw new Error('User not found')
+        }
+        TODOS[userIndex] = data
+        resolve(data)
+      } catch (error) {
+        reject(error)
+      }
+    }),
   },
 }
