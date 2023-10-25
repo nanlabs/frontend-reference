@@ -1,4 +1,6 @@
-export type RandomImgResponse = {
-  message: string;
-  status: string;
-};
+export type Todo = {
+  id: string;
+  title: string;
+  description: string;
+  completed: boolean;
+}

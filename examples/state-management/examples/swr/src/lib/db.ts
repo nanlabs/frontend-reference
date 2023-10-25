@@ -1,9 +1,4 @@
-type Todo = {
-  id: string;
-  title: string;
-  description: string;
-  completed: boolean;
-}
+import { Todo } from "@/types";
 
 const TODOS: Todo[] = [
   {
