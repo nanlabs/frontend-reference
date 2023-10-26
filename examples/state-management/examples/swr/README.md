@@ -96,6 +96,6 @@ This was chosen because it gives more control over the mutations considering tha
    1) By default: `Data = any` overwritten by: `Todo`
    2) By default: `Error = any` overwritten by: `unknown`
    3) By default: `SWRMutationKey extends Key = Key`
-   4) By default: `ExtraArg = never` overwritten by: ExtraSWROptions<Todo>
+   4) By default: `ExtraArg = never` overwritten by: `ExtraSWROptions<Todo>`
    5) By default: `SWRData = Data`
 6) Last but not least, the implementation of the custom hook can be found [here](./src/app/page.tsx#L12-L15)
