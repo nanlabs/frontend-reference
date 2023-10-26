@@ -5,15 +5,15 @@ import styles from "./page.module.css";
 import useGetTodos from "@/hooks/useGetTodos";
 import "./style.css"
 import { Todo } from "@/types";
+import useUpdateTodo from "@/hooks/useUpdateTodo";
 
 export default function Home() {
-  const { todos, isLoading, error, refetch } = useGetTodos();
+  const { todos, isLoading, error } = useGetTodos();
+  const { updateTodo } = useUpdateTodo();
 
   const handleChangeTodo = (todo: Todo) => {
-    console.log(todo);
-    // refetch()
+    updateTodo({ ...todo, completed: !todo.completed});
   };
-  console.log(todos, isLoading, error);
   return (
     <main className={styles.main}>
       <div className={styles.description}>
