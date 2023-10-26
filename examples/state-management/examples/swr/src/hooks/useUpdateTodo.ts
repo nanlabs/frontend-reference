@@ -1,5 +1,5 @@
 import useSWRMutation from "swr/mutation";
-import { updateMutator } from "./_mutator";
+import { mutator } from "./_mutator";
 import { ExtraSWROptions, Todo } from "@/types";
 import { Key } from "swr";
 
@@ -13,7 +13,7 @@ const useUpdateTodo = () => {
     ExtraSWROptions<Todo>
   >(
     url,
-    updateMutator,
+    mutator,
     /* options */
   );
 
