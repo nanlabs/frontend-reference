@@ -13,7 +13,7 @@ export const fetcher = async (url: string) => {
   // we still try to parse and throw it.
   if (!res.ok) {
     // Attach extra info to the error object.
-    throw new Error(res.statusText, { cause: res.json() })
+    throw new Error(res.statusText, { cause: await res.json() })
   }
   return res.json();
 };
