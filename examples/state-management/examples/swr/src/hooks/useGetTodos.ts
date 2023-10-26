@@ -5,7 +5,7 @@ import { Todo } from "@/types";
 const useGetTodos = () => {
   const url = "/api/todos";
 
-  const { data, error, isLoading, isValidating, mutate } = useSWR<Array<Todo>>(url, fetcher);
+  const { data, error, isLoading, isValidating, mutate } = useSWR<Array<Todo>>(url, fetcher, /* config */);
 
   const refetch = () => mutate();
 
