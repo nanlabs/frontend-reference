@@ -1,6 +1,6 @@
 import React, { useState, createContext, useContext } from "react";
-import { QueryClient, QueryClientProvider, useQuery } from "react-query";
 import { useInterval } from "react-use";
+import useSWR from "swr";
 
 interface ApplicationState {
   seconds: number;
@@ -15,14 +15,25 @@ const ApplicationContext = createContext<ApplicationState>({
   onToggle: () => {},
 });
 
+export const fetcher = async (url: string) => {
+  const res = await fetch(url, {
+    headers: {
+      "Common-header": "this is an example"
+    },
+  });
+  // If the status code is not in the range 200-299,
+  // we still try to parse and throw it.
+  if (!res.ok) {
+    // Attach extra info to the error object.
+    throw new Error(res.statusText, { cause: await res.json() })
+  }
+  return res.json();
+};
+
 const useApplicationState = (): ApplicationState => {
   const [seconds, setSeconds] = useState(0);
   const [running, setRunning] = useState(false);
-  const { data } = useQuery<{
-    names: string[];
-  }>("names", () => fetch("/names.json").then((res) => res.json()), {
-    enabled: seconds > 2,
-  });
+  const { data } = useSWR<{names:string[]}>("names.json", fetcher);
 
   useInterval(
     () => setSeconds((seconds) => seconds + 0.1),
@@ -37,8 +48,6 @@ const useApplicationState = (): ApplicationState => {
   };
 };
 
-const queryClient = new QueryClient();
-
 const StopwatchContextProvider: React.FunctionComponent = ({ children }) => (
   <ApplicationContext.Provider value={useApplicationState()}>
     {children}
@@ -48,9 +57,7 @@ const StopwatchContextProvider: React.FunctionComponent = ({ children }) => (
 export const ApplicationContextProvider: React.FunctionComponent = ({
   children,
 }) => (
-  <QueryClientProvider client={queryClient}>
     <StopwatchContextProvider>{children}</StopwatchContextProvider>
-  </QueryClientProvider>
 );
 
 export const useApplicationContext = () => useContext(ApplicationContext);

@@ -2,7 +2,7 @@
   "name": "api-swr",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite --port 3008",
+    "dev": "vite --port 3009",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "clean": "rm -fr node_modules || true"
@@ -10,8 +10,8 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-query": "^3.34.7",
-    "react-use": "^17.3.1"
+    "react-use": "^17.3.1",
+    "swr": "^2.2.4"
   },
   "devDependencies": {
     "@types/react": "^17.0.33",
