@@ -345,6 +345,13 @@
         "Automated Testing",
         "Security Issues"
       ]
+    },
+    {
+      "name": "NextJS with SWR",
+      "description": "This example shows how to use SWR with NextJS for data fetch and mutate.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/nextjs-with-swr-example",
+      "tags": ["Examples > Frontend > React State Management", "Examples > Frontend > NextJs"],
+      "labels": ["NextJS", "SWR", "React", "TypeScript"]
     }
   ]
 }
