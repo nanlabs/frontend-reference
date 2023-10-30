@@ -352,6 +352,13 @@
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/nextjs-with-swr-example",
       "tags": ["Examples > Frontend > React State Management", "Examples > Frontend > NextJs"],
       "labels": ["NextJS", "SWR", "React", "TypeScript"]
+    },
+    {
+      "name": "SWR",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/api-swr/",
+      "description": "This example shows how to use SWR to fetch data from an API.",
+      "tags": ["Examples > Frontend > React State Management"],
+      "labels": ["React", "SWR"]
     }
   ]
 }
