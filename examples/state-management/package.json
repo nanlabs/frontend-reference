@@ -2,9 +2,8 @@
   "name": "packages",
   "version": "1.0.0",
   "main": "index.js",
-  "private":true,
-  "license": "MIT",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "start": "concurrently \"wsrun --parallel dev\"",
     "clean": "npm run clean:projects && npm run clean:top",
