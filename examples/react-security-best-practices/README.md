@@ -36,11 +36,8 @@ For example:-
 
 ```Javascript
 function validateURL(url) {
-
-const parsed = new URL(url)
-
-return ['https:', 'http:'].includes(parsed.protocol)
-
+  const parsed = new URL(url)
+  return ['https:', 'http:'].includes(parsed.protocol)
 }
 
 <a href={validateURL(url) ? url : '#'}>Click here!</a>
