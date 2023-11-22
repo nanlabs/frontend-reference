@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import path from 'path';
 import react from '@vitejs/plugin-react';
 import eslint from 'vite-plugin-eslint';
-import electron from 'vite-electron-plugin'
+import electron from 'vite-electron-plugin';
 import { VitePWA } from 'vite-plugin-pwa';
 
 const { PORT = '3000' } = process.env;
@@ -42,12 +42,13 @@ const vitePluginPWA = () =>
     },
   });
 
-const electronPlugin = () => electron({
-  include: [
-    // The Electron source codes directory
-    'electron',
-  ],
-});
+const electronPlugin = () =>
+  electron({
+    include: [
+      // The Electron source codes directory
+      'electron',
+    ],
+  });
 
 // https://vitejs.dev/config/
 export default defineConfig({
