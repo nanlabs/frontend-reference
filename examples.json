@@ -102,7 +102,10 @@
       "name": "Supercharge Your Website with Core Web Vitals",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/seo-and-core-web-vitals",
       "description": "Learn how to optimize your website's performance and improve SEO using Core Web Vitals. Discover the key metrics, tools, and techniques to deliver an exceptional user experience.",
-      "tags": ["Examples > Frontend > Website Optimization and Performance"],
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > Website Optimization and Performance"
+      ],
       "labels": [
         "Core Web Vitals",
         "SEO",
@@ -316,7 +319,10 @@
       "name": "Comparative Analysis between styled-components and Tailwind CSS",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/styled-components-vs-tailwindcss/",
       "description": "Article that presents a comparative analysis of styled-components and Tailwind CSS, focusing on practical implementations of a UI Challenge using both libraries.",
-      "tags": ["Examples > Frontend > Styling and CSS"],
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > Styling and CSS"
+      ],
       "labels": [
         "styled-components",
         "Tailwind CSS",
@@ -336,7 +342,10 @@
       "name": "React Security Best Practices Guide",
       "description": "This checklist provides React security best practices to assist you and your team in identifying and addressing security issues within your React applications. Additionally, it includes guidance on how to automate security testing for your React code and automatically remedy any security-related issues.",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/react-security-best-practices",
-      "tags": ["Examples > Frontend > Security Best Practices"],
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > Security Best Practices"
+      ],
       "labels": [
         "React",
         "Security",
@@ -350,7 +359,10 @@
       "name": "NextJS with SWR",
       "description": "This example shows how to use SWR with NextJS for data fetch and mutate.",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/nextjs-with-swr-example",
-      "tags": ["Examples > Frontend > React State Management", "Examples > Frontend > NextJs"],
+      "tags": [
+        "Examples > Frontend > React State Management",
+        "Examples > Frontend > NextJs"
+      ],
       "labels": ["NextJS", "SWR", "React", "TypeScript"]
     },
     {
