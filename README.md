@@ -28,6 +28,7 @@ This repository contains different Frontend related resources like applications,
 
 - [Apps and Boilerplates](#apps-and-boilerplates)
 - [Node Packages](#node-packages)
+- [Guides, Tutorials and Best Practices](#guides-tutorials-and-best-practices)
 - [Examples](#examples)
 
   - [Frontend](#frontend)
@@ -63,6 +64,14 @@ This repository contains different Frontend related resources like applications,
 | [@nanlabs/react-thirdparty](https://www.npmjs.com/package/@nanlabs/react-thirdparty)       | This library provides a set of React components that can be used in any React application. It provides integrations with third party libraries like Google ReCaptcha and more! | _React_, _Components_, _UI_, _Design System_, _Third Party_ |
 | [@nanlabs/react-ui](https://www.npmjs.com/package/@nanlabs/react-ui)                       | This library provides a set of React components that can be used in any React application                                                                                      | _React_, _Components_, _UI_, _Design System_                |
 | [@nanlabs/thirdparty](https://www.npmjs.com/package/@nanlabs/thirdparty)                   | This library provides a set of tools that can be used in any web application. It provides integrations with third party libraries like Google ReCaptcha and more!              | _Third Party_                                               |
+
+## Guides, Tutorials and Best Practices
+
+| Name                                                                                                                                                                  | Description                                                                                                                                                                                                                                                                                                      | Keywords                                                                                                                              |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| [Comparative Analysis between styled-components and Tailwind CSS](https://github.com/nanlabs/frontend-reference/tree/main/examples/styled-components-vs-tailwindcss/) | Article that presents a comparative analysis of styled-components and Tailwind CSS, focusing on practical implementations of a UI Challenge using both libraries.                                                                                                                                                | _styled-components_, _Tailwind CSS_, _CSS_, _CSS-in-JS_, _Analysis_                                                                   |
+| [React Security Best Practices Guide](https://github.com/nanlabs/frontend-reference/tree/main/examples/react-security-best-practices)                                 | This checklist provides React security best practices to assist you and your team in identifying and addressing security issues within your React applications. Additionally, it includes guidance on how to automate security testing for your React code and automatically remedy any security-related issues. | _React_, _Security_, _Best Practices_, _Frontend_, _Automated Testing_, _Security Issues_                                             |
+| [Supercharge Your Website with Core Web Vitals](https://github.com/nanlabs/frontend-reference/tree/main/examples/seo-and-core-web-vitals)                             | Learn how to optimize your website's performance and improve SEO using Core Web Vitals. Discover the key metrics, tools, and techniques to deliver an exceptional user experience.                                                                                                                               | _Core Web Vitals_, _SEO_, _Website Performance_, _User Experience_, _Google PageSpeed Insights_, _Lighthouse_, _Web Vitals Extension_ |
 
 ## Examples
 
