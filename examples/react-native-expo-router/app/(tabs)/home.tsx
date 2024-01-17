@@ -1,6 +1,6 @@
-import { StyleSheet, Text, View } from "react-native";
-import { Link } from "expo-router";
-import React from "react";
+import { Link } from 'expo-router';
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         <Text style={styles.title}>Home :)</Text>
         <Text style={styles.subtitle}>This is the first page of this app.</Text>
       </View>
-      <Link href={"/details/1"}>View element #1</Link>
+      <Link href="/details/1">View element #1</Link>
       <Link href="/login">Log in</Link>
     </View>
   );
@@ -18,21 +18,21 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "center",
+    alignItems: 'center',
     padding: 24,
   },
   main: {
     flex: 1,
-    justifyContent: "center",
+    justifyContent: 'center',
     maxWidth: 960,
-    marginHorizontal: "auto",
+    marginHorizontal: 'auto',
   },
   title: {
     fontSize: 64,
-    fontWeight: "bold",
+    fontWeight: 'bold',
   },
   subtitle: {
     fontSize: 36,
-    color: "#38434D",
+    color: '#38434D',
   },
 });

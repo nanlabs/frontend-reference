@@ -1,4 +1,4 @@
-import { Redirect } from "expo-router";
+import { Redirect } from 'expo-router';
 
 const IndexPage = () => <Redirect href="/home" />;
 

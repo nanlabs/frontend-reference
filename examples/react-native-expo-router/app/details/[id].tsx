@@ -1,5 +1,5 @@
-import { View, Text } from "react-native";
-import { Stack, useLocalSearchParams } from "expo-router";
+import { Stack, useLocalSearchParams } from 'expo-router';
+import { View, Text } from 'react-native';
 
 const DetailsPage = () => {
   const { id } = useLocalSearchParams();
