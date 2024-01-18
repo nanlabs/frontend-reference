@@ -1,3 +1,4 @@
+import Button from '@/components/Button';
 import { Link } from 'expo-router';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
@@ -9,8 +10,8 @@ export default function Home() {
         <Text style={styles.title}>Home :)</Text>
         <Text style={styles.subtitle}>This is the first page of this app.</Text>
       </View>
-      <Link href="/details/1">View element #1</Link>
       <Link href="/login">Log in</Link>
+      <Button />
     </View>
   );
 }

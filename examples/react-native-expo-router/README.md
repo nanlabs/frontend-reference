@@ -1,13 +1,37 @@
-# Expo Router Example
+# Frontend template for a React Native Expo
 
-Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
+This is a template for a react native expo app with typescript, eslint, prettier and expo-router. Also you have a minimal example for expo-router.
 
-## 🚀 How to use
+## Getting Started
+
+## Dev Tools
+
+- ⚛ [React Native](https://reactnative.dev/) is used for UI.
+- [Expo](https://expo.dev/) for easy development.
+- 🦾 [TypeScript](https://www.typescriptlang.org/) - type safe.
+
+## Requirements
+
+You need nodejs version 18, you can check the specific version in the .node-version file.
+
+## Quickstart
 
 ```sh
-npx create-expo-app -e with-router
+fnm use
+npm install
+npm run start
+# or for a clean start
+npx expo start -c
 ```
 
-## 📝 Notes
+## Development
 
-- [Expo Router: Docs](https://docs.expo.dev/router/introduction/)
+While developing, you will probably rely mostly on `npx expo start`; however, there are additional scripts at your disposal:
+
+| `npm run <script>` | Description                                                                                                             |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| `start`            | run expo interactive environment menu                                                                                   |
+| `ios`              | start app in ios device                                                                                                 |
+| `android`          | start app in android device                                                                                             |
+| `web`              | start app in web environment                                                                                            |
+| `lint:fix`         | Lints the project and [fixes all correctable errors](http://eslint.org/docs/user-guide/command-line-interface.html#fix) |
