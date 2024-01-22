@@ -371,6 +371,13 @@
       "description": "This example shows how to use SWR to fetch data from an API.",
       "tags": ["Examples > Frontend > React State Management"],
       "labels": ["React", "SWR"]
+    },
+    {
+      "name": "React Native with expo router",
+      "description": "This example shows how to use expo router with React Native.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/react-native-expo-router/",
+      "tags": ["Examples > Frontend > React Native > Expo"],
+      "labels": ["React Native", "Expo", "React"]
     }
   ]
 }
