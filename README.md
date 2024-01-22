@@ -39,6 +39,8 @@ This repository contains different Frontend related resources like applications,
     - [Virtual Dom](#virtual-dom)
     - [Security Best Practices](#security-best-practices)
     - [NextJs](#nextjs)
+    - [React Native](#react-native)
+      - [Expo](#expo)
 
 - [Contributing](#contributing)
 - [Contributors](#contributors)
@@ -143,6 +145,14 @@ This repository contains different Frontend related resources like applications,
 | Name                                                                                                        | Description                                                              | Keywords                               |
 | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------- |
 | [NextJS with SWR](https://github.com/nanlabs/frontend-reference/tree/main/examples/nextjs-with-swr-example) | This example shows how to use SWR with NextJS for data fetch and mutate. | _NextJS_, _SWR_, _React_, _TypeScript_ |
+
+#### React Native
+
+##### Expo
+
+| Name                                                                                                                                                  | Description                                                  | Keywords                        |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------- |
+| [React Native with expo router](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/react-native-expo-router/) | This example shows how to use expo router with React Native. | _React Native_, _Expo_, _React_ |
 
 ## Contributing
 
