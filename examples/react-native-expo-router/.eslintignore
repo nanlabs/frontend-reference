@@ -1,15 +1,18 @@
 node_modules/
 
 # Ignore artifacts:
+
 coverage/
 dist/
 dev-dist/
 public/
-__mocks__/
+**mocks**/
 
 jest.config.js
 postcss.config.js
-*.d.ts
+babel.config.js
+\*.d.ts
 
 src/theme/
 tools/
+docs/

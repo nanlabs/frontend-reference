@@ -1,6 +1,6 @@
 # Frontend template for a React Native Expo
 
-This is a template for a react native expo app with typescript, eslint, prettier and expo-router. Also you have a minimal example for expo-router.
+This is a template for a react native expo app with TypeScript, ESlint, prettier and expo-router. Also you have a minimal example for expo-router.
 
 ## Getting Started
 
@@ -31,7 +31,7 @@ While developing, you will probably rely mostly on `npx expo start`; however, th
 | `npm run <script>` | Description                                                                                                             |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------- |
 | `start`            | run expo interactive environment menu                                                                                   |
-| `ios`              | start app in ios device                                                                                                 |
-| `android`          | start app in android device                                                                                             |
+| `ios`              | start app in iOS device                                                                                                 |
+| `android`          | start app in Android device                                                                                             |
 | `web`              | start app in web environment                                                                                            |
 | `lint:fix`         | Lints the project and [fixes all correctable errors](http://eslint.org/docs/user-guide/command-line-interface.html#fix) |
