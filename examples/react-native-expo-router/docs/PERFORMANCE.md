@@ -28,4 +28,11 @@ const [state, setState] = useState(() => myExpensiveFn());
 
 - If you develop an application that requires the state to track many elements at once, you might consider state management libraries with atomic updates such as [recoil](https://recoiljs.org/) or [jotai](https://jotai.pmnd.rs/).
 
-- If your application is expected to have frequent updates that might affect performance, consider switching from runtime styling solutions ([Chakra UI](https://chakra-ui.com/), [emotion](https://emotion.sh/docs/introduction), [styled-components](https://styled-components.com/) that generate styles during runtime) to zero runtime styling solutions ([tailwind](https://tailwindcss.com/), [linaria](https://github.com/callstack/linaria), [vanilla-extract](https://github.com/seek-oss/vanilla-extract), [CSS modules](https://github.com/css-modules/css-modules) which generate styles during build time).
+- If your application is expected to have frequent updates that might affect performance, consider switching from runtime styling solutions:
+- [Chakra UI](https://chakra-ui.com/)
+- [emotion](https://emotion.sh/docs/introduction)
+- [styled-components](https://styled-components.com/) that generate styles during runtime) to zero runtime styling solutions.
+- [tailwind](https://tailwindcss.com/)
+- [linaria](https://github.com/callstack/linaria)
+- [vanilla-extract](https://github.com/seek-oss/vanilla-extract)
+- [CSS modules](https://github.com/css-modules/css-modules) which generate styles during build time.
