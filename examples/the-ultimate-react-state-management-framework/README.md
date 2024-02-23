@@ -36,9 +36,21 @@ Efficient data management is key for responsive applications.
 
 Local state management should be straightforward and component-focused. As mentioned earlier, React's built-in state management is often sufficient. However, if you need more, consider these options:
 
+- **Simple State**: For simple state management, React's built-in `useState` and `useReducer` are your best bet.
 - **FSM with XState**: For complex local states, especially those with multiple states or transitions, XState is your go-to for finite state machines.
 
-## Application State - Choose Wisely 🗳️
+## Step 5: Global State - The Big Picture 🌐
+
+When local state management isn't enough, it's time to consider global state management. Here are some popular options:
+
+- **Context API**: For simple global state management, the Context API is a great choice. It's built into React and doesn't require any additional libraries.
+- **@hookstate**: For a simple, yet powerful, global state management solution, consider using [hookstate](https://hookstate.netlify.app/).
+- **Alternatives**: You can also consider libraries like [react-hook-global-state](https://www.npmjs.com/package/react-hooks-global-state) and [teaful](https://www.npmjs.com/package/teaful)
+- **FSM with XState**: You can also use [xstate](https://xstate.js.org/) for global state management. It's a great choice if you need to manage complex state machines globally in your app.
+
+If you're building a large-scale application, you might need a more robust solution. In that case, consider to follow the recommendations in the next step to choose the right state management library for your project!
+
+## Step 6: Application State - Choose Wisely 🗳️
 
 Understanding the different paradigms of state management can empower you to pick the most suitable one for your project's needs.
 
