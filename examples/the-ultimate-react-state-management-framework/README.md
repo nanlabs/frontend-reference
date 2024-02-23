@@ -46,8 +46,8 @@ Understanding the different paradigms of state management can empower you to pic
 
 - **What is it?** Updates UI in real-time as the state changes.
 - **Use Case Example**: A chat application that displays messages as they arrive.
-- **Recommended Library**: Akita, for its excellent support for reactive patterns.
-- **Alternatives**: RxJS, MobX.
+- **Recommended Library**: [Akita](https://opensource.salesforce.com/akita/), for its excellent support for reactive patterns.
+- **Alternatives**: [RxJS](https://rxjs.dev/).
 
 ### Atomic State Management
 
