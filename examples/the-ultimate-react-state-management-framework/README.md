@@ -31,6 +31,7 @@ Efficient data management is key for responsive applications.
 - **Fetch API**: Embrace the modern Fetch API for your HTTP requests. It's widely supported and doesn't require an additional package like Axios.
 - **Full-Stack TypeScript Projects**: If you're working with a TypeScript back end or using Next.js, [tRPC](https://trpc.io/) allows you to create end-to-end typesafe APIs without the need to define schemas or generate types.
 - **GraphQL**: Consider Apollo Client for a powerful and comprehensive approach to manage data with GraphQL.
+- **Data Fetching & Server Sync**: For advanced data fetching and server state synchronization, [Tan Stack Query](https://tanstack.com/query/latest) provides a robust solution that handles caching, background updates, and more, outperforming traditional REST API patterns.
 
 ## Step 4: Component State - Keep It Local 🎛️
 
