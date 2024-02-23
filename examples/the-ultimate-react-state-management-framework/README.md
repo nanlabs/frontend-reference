@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" alt="React State Management" align="right" width="165px" srcset="./images/logo.webp"/>
-  <img alt="React State Management" align="right" width="275px" src="./images/logo.webp"/>
+  <img alt="React State Management" align="left" width="165px" src="./images/logo.webp"/>
 </picture>
 
 Dive into the definitive guide for selecting technologies for your React apps. This step-by-step framework will lead you to make informed decisions, ensuring your app is both robust and maintainable. Let's enhance your tech stack! ✨🛠️
