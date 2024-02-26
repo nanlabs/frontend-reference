@@ -89,4 +89,12 @@ With this comprehensive understanding, you're now equipped to make informed deci
 
 As you build and scale your React applications, keep these guidelines close. The React ecosystem is dynamic, so be ready to adopt new tools, assess their fit for your project, and evolve your stack as needed. Most importantly, the right choice is the one that works for your unique scenario.
 
+## Explore Our State Management Examples
+
+Dive deeper into the React ecosystem with our comprehensive examples directory. We've meticulously curated a collection of practical examples showcasing the implementation and usage of all the libraries mentioned above—and more! Whether you're looking to understand the nuances of state management with Redux, explore the reactivity of MobX, or master the atomic updates of Jotai, our examples will provide you with the hands-on experience you need.
+
+Browse through the directory to find the example that aligns with your learning path or project requirements. It's an invaluable resource for developers seeking to expand their skill set and apply best practices in real-world scenarios.
+
+🔗 [Visit the Examples Directory](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management)
+
 Happy building! 🏗️
