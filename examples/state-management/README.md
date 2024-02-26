@@ -1,13 +1,19 @@
 # State Manager Example Applications
 
-## Installation and startup
+This repository contains a collection of example applications demonstrating various state management strategies in React. For a comprehensive guide on selecting the right state management library, check out our [Ultimate React State Management Framework](https://github.com/nanlabs/frontend-reference/blob/main/examples/the-ultimate-react-state-management-framework).
+
+## Getting Started 🚀
+
+To install and run the example applications, follow these steps:
 
 ```sh
 % yarn
 % yarn start
 ```
 
-## State manager examples
+## Explore the Examples 🧭
+
+We've organized the examples by state management category, showcasing different libraries and their usage. Below is a table categorizing each example, complete with direct links to the running applications and their corresponding npm download statistics.
 
 | Category       | Name                                       | Libraries                                                                          | Downloads                                                                                                   |
 | -------------- | ------------------------------------------ | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -33,3 +39,9 @@
 | Bidirectional  | [Valtio](http://localhost:3005/)           | [Valtio](https://www.npmjs.com/package/valtio)                                     | ![npm](https://img.shields.io/npm/dw/valtio?color=white&label=%20&style=flat-square)                        |
 | Bidirectional  | [MobX State Tree](http://localhost:3015/)  | [Mobx State Tree](https://mobx-state-tree.js.org/)                                 | ![npm](https://img.shields.io/npm/dw/mobx-state-tree?color=white&label=%20&style=flat-square)               |
 | Bidirectional  | [React Easy State](http://localhost:3019/) | [React Easy State](https://github.com/RisingStack/react-easy-state)                | ![npm](https://img.shields.io/npm/dw/@risingstack/react-easy-state?color=white&label=%20&style=flat-square) |
+
+## Support 💖
+
+If you find these examples helpful, consider starring the repo or contributing to its development. Your support is greatly appreciated!
+
+Happy Coding! ✨
