@@ -1,0 +1,36 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #eaeaea;
+}
+
+.button-copy {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}
