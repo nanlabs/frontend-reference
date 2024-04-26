@@ -152,9 +152,9 @@ This repository contains different Frontend related resources like applications,
 
 ##### Expo
 
-| Name                                                                                                                                                  | Description                                                  | Keywords                        |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------- |
-| [React Native with expo router](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/react-native-expo-router/) | This example shows how to use expo router with React Native. | _React Native_, _Expo_, _React_ |
+| Name                                                                                                                        | Description                                                  | Keywords                        |
+| --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------- |
+| [React Native with expo router](https://github.com/nanlabs/frontend-reference/tree/main/examples/react-native-expo-router/) | This example shows how to use expo router with React Native. | _React Native_, _Expo_, _React_ |
 
 ## Contributing
 
