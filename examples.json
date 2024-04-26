@@ -375,7 +375,7 @@
     {
       "name": "React Native with expo router",
       "description": "This example shows how to use expo router with React Native.",
-      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/react-native-expo-router/",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/react-native-expo-router/",
       "tags": ["Examples > Frontend > React Native > Expo"],
       "labels": ["React Native", "Expo", "React"]
     },
