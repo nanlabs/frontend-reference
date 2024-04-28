@@ -394,6 +394,27 @@
         "Best Practices",
         "Frontend"
       ]
+    },
+    {
+      "name": "Navigator Clipboard API Integration Guide",
+      "description": "Delve into our detailed guide to integrate the Navigator Clipboard API into your web applications. Learn to implement seamless content sharing through copying text, images, and HTML directly to the clipboard, enhancing user experience and productivity.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/navigator-clipboard-api-integration",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > Clipboard Integration"
+      ],
+      "labels": [
+        "Clipboard API",
+        "JavaScript",
+        "HTML5",
+        "User Experience",
+        "Frontend Development",
+        "Interactivity",
+        "Content Sharing",
+        "Web Standards",
+        "Accessibility",
+        "CSS3"
+      ]
     }
   ]
 }
