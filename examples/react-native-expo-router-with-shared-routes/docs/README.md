@@ -8,3 +8,4 @@ This folder contains extra documentation for the project such us project structu
 - [Components and Styling](./COMPONENTS_AND_STYLING.md)
 - [Performance recommendations](./PERFORMANCE.md)
 - [State Management recommendations](./STATE_MANAGEMENT.md)
+- [Shared Routes](./SHARED_ROUTES.md)
