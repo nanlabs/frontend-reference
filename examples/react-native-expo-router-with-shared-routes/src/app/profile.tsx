@@ -32,13 +32,21 @@ export default function EditProfile() {
             <View style={styles.avatarContainer}>
               <Image source={{ uri: 'https://picsum.photos/200' }} style={styles.avatar} />
             </View>
-            <TouchableOpacity style={styles.changeButton}>
-              <Text style={styles.changeText}>Change profile picture</Text>
-            </TouchableOpacity>
-            <TextInput style={styles.input} placeholder="Name" />
-            <TextInput style={styles.input} placeholder="Email" />
+
+            <View style={styles.inputContainer}>
+              <View>
+                <Text>Name</Text>
+                <TextInput style={styles.input} placeholder="Name" />
+              </View>
+              <View>
+                <Text>Email</Text>
+                <TextInput style={styles.input} placeholder="Email" />
+              </View>
+            </View>
           </ScrollView>
         </KeyboardAvoidingView>
+
+        <Text style={styles.noTabs}>No tabs in this page. </Text>
       </SafeAreaView>
     </>
   );
@@ -67,37 +75,23 @@ const styles = StyleSheet.create({
     height: 80,
     borderRadius: 50,
   },
-  cameraIconContainer: {
-    position: 'absolute',
-    bottom: 0,
-    right: '38%',
-    backgroundColor: 'lightgrey',
-    borderRadius: 20,
-    padding: 5,
+  inputContainer: {
+    width: '100%',
+    padding: 10,
+    gap: 10,
   },
-  changeButton: {
-    marginTop: 10,
-  },
-  changeText: {
-    textDecorationLine: 'underline',
-    fontWeight: '500',
-  },
+
   input: {
     width: '100%',
     marginVertical: 5,
     maxHeight: 80,
+    padding: 10,
+    borderColor: '#ccc',
+    borderWidth: 1,
+    borderRadius: 5,
   },
-  saveContainer: {
+  noTabs: {
     width: '100%',
-    height: 100,
-    justifyContent: 'flex-end',
-  },
-  saveButton: {
-    width: '100%',
-    marginVertical: 10,
-  },
-  error: {
-    margin: 0,
-    paddingVertical: 0,
+    textAlign: 'center',
   },
 });

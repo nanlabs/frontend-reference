@@ -1,4 +1,5 @@
-import { Link, useSegments } from 'expo-router';
+import Button from '@/components/Button';
+import { Link, router, useSegments } from 'expo-router';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
@@ -9,11 +10,20 @@ export default function Example() {
     <View style={styles.container}>
       <View style={styles.main}>
         <Text style={styles.title}>Example :)</Text>
-        <Text style={styles.subtitle}>This is the first page of this app.</Text>
+        <Text style={styles.subtitle}>Another page</Text>
       </View>
-      <Link href="/settings">settings</Link>
-      <Link href="/profile">profile</Link>
-      <Link href={`/${firstSegment}/${secondSegment}/post`}>post</Link>
+      <Button
+        onClick={() => {
+          router.push(`/profile`);
+        }}
+        title="Go to page profile (outside tabs)"
+      />
+      <Button
+        onClick={() => {
+          router.push(`/${firstSegment}/${secondSegment}/post`);
+        }}
+        title="Go to a shared route 'post' (inside tabs)"
+      />
     </View>
   );
 }
