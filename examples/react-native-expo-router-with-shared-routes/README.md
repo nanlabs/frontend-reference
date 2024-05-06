@@ -1,6 +1,6 @@
 # Frontend template for a React Native Expo
 
-This is a template for a react native expo app with TypeScript, ESLint, prettier and expo-router. Also you have a minimal example for expo-router.
+This is a template for a React Native Expo app with TypeScript, ESLint, prettier, and expo-router. Also you have a minimal example for expo-router.
 
 ## Getting Started
 
