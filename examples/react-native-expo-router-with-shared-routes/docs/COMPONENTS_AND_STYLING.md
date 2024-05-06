@@ -8,7 +8,7 @@ Keep components, functions, styles, state, etc. as close as possible to the comp
 
 ### Avoid large components with nested rendering functions
 
-Do not add multiple rendering functions inside your application, this gets out of control pretty quickly. What you should do instead is if there is a piece of UI that can be considered as a unit, is to extract it in a separate component.
+Do not add multiple rendering functions inside your application, this gets out of control pretty quickly. What you should do instead, if there is a piece of UI that can be considered as a unit, is to extract it into a separate component.
 
 ```javascript
 // this is very difficult to maintain as soon as the component starts growing
