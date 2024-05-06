@@ -10,7 +10,7 @@ Do not code split everything as it might even worsen your application's performa
 
 ## Component and state optimizations
 
-- Do not put everything in a single state. That might trigger unnecessary re-renders. Instead split the global state into multiple stores according to where it is being used.
+Do not put everything in a single state. That might trigger unnecessary re-renders. Instead, split the global state into multiple stores according to where it is being used.
 
 - Keep the state as close as possible to where it is being used. This will prevent re-rendering components that do not depend on the updated state.
 
