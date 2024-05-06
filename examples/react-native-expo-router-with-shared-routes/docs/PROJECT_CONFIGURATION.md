@@ -6,7 +6,7 @@ You should always configure and use the following tools:
 
 ## ESLint
 
-ESLint is a linting tool for JavaScript. By providing specific configuration defined in the`.eslintrc` file it prevents developers from making silly mistakes in their code and enforces consistency in the codebase.
+ESLint is a linting tool for JavaScript. By providing specific configuration defined in the`.eslintrc` file, it prevents developers from making silly mistakes in their code and enforces consistency in the codebase.
 
 [ESLint Configuration](../.eslintrc)
 
