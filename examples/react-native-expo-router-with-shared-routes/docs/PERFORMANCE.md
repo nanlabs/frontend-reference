@@ -26,7 +26,7 @@ const [state, setState] = useState(myExpensiveFn());
 const [state, setState] = useState(() => myExpensiveFn());
 ```
 
-- If you develop an application that requires the state to track many elements at once, you might consider state management libraries with atomic updates such as [recoil](https://recoiljs.org/) or [jotai](https://jotai.pmnd.rs/).
+If you develop an application that requires the state to track many elements at once, you might consider state management libraries with atomic updates such as, [recoil](https://recoiljs.org/) or [jotai](https://jotai.pmnd.rs/).
 
 - If your application is expected to have frequent updates that might affect performance, consider switching from runtime styling solutions:
 - [Chakra UI](https://chakra-ui.com/)
