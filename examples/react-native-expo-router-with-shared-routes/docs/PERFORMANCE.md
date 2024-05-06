@@ -4,7 +4,7 @@
 
 Code splitting is a technique of splitting production JavaScript into smaller files, thus allowing the application to be only partially downloaded. Any unused code will not be downloaded until it is required by the application.
 
-Most of the time code splitting should be done on the routes level, but can also be used for other lazy loaded parts of application.
+Most of the time, code splitting should be done on the routes level, but can also be used for other lazy loaded parts of the application.
 
 Do not code split everything as it might even worsen your application's performance.
 
