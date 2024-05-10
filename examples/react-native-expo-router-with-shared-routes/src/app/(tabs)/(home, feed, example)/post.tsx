@@ -1,10 +1,10 @@
 import Button from '@/components/Button';
-import { Link, useLocalSearchParams, useRouter, useSegments } from 'expo-router';
+import { useLocalSearchParams, useRouter, useSegments } from 'expo-router';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function Post() {
-  const segment = useSegments();
+  const [tabs, segment] = useSegments();
   const router = useRouter();
   const params = useLocalSearchParams<{ randomId: string }>();
 
@@ -18,7 +18,7 @@ export default function Post() {
       <Button
         onClick={() => {
           router.push({
-            pathname: `/${segment[0]}/${segment[1]}/post`,
+            pathname: `/${tabs}/${segment}/post`,
             params: { randomId: Math.random().toString() },
           });
         }}

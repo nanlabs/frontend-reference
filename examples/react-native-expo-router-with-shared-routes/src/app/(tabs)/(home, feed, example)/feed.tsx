@@ -4,7 +4,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function Feed() {
-  const [firstSegment, secondSegment] = useSegments();
+  const [tabs, segment] = useSegments();
 
   return (
     <View style={styles.container}>
@@ -14,7 +14,7 @@ export default function Feed() {
       </View>
       <Button
         onClick={() => {
-          router.push(`/${firstSegment}/${secondSegment}/post`);
+          router.push(`/${tabs}/${segment}/post`);
         }}
         title="Go to a shared route 'post' (inside tabs)"
       />

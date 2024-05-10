@@ -4,7 +4,7 @@ import { StyleSheet, Text, Touchable, View } from 'react-native';
 import Button from '@/components/Button';
 
 export default function Home() {
-  const [firstSegment, secondSegment] = useSegments();
+  const [tabs, segment] = useSegments();
 
   return (
     <View style={styles.container}>
@@ -21,7 +21,7 @@ export default function Home() {
 
       <Button
         onClick={() => {
-          router.push(`/${firstSegment}/${secondSegment}/post`);
+          router.push(`/${tabs}/${segment}/post`);
         }}
         title="Go to a shared route 'post' (inside tabs)"
       />
