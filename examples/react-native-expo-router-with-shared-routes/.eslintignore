@@ -1,0 +1,18 @@
+node_modules/
+
+# Ignore artifacts:
+
+coverage/
+dist/
+dev-dist/
+public/
+**mocks**/
+
+jest.config.js
+postcss.config.js
+babel.config.js
+\*.d.ts
+
+src/theme/
+tools/
+docs/
