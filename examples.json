@@ -380,6 +380,13 @@
       "labels": ["React Native", "Expo", "React"]
     },
     {
+      "name": "React Native with expo router and shared routes",
+      "description": "This example shows how to use expo router with React Native and shared routes.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/react-native-expo-router-with-shared-routes/",
+      "tags": ["Examples > Frontend > React Native > Expo"],
+      "labels": ["React Native", "Expo", "React"]
+    },
+    {
       "name": "The Ultimate React State Management Framework",
       "description": "This article presents a step-by-step framework will lead you to make informed decisions, ensuring your app is both robust and maintainable. Let's enhance your tech stack!",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/the-ultimate-react-state-management-framework",

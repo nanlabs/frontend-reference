@@ -1,6 +1,8 @@
-# Frontend template for a React Native Expo
+# Expo Router Example
 
 This is a template for a react native expo app with TypeScript, ESLint, prettier and expo-router. Also you have a minimal example for expo-router.
+
+This project was generated using [create-awesome-node-app](https://www.npmjs.com/package/create-awesome-node-app). **DON'T USE THIS TEMPLATE AS IT!** Generate yours using the command and following the options in the interactive menu. Check the docs for more information!
 
 ## Getting Started
 
