@@ -4,8 +4,6 @@ This is a template for a react native expo app with TypeScript, ESLint, prettier
 
 This project was generated using [create-awesome-node-app](https://www.npmjs.com/package/create-awesome-node-app). **DON'T USE THIS TEMPLATE AS IT!** Generate yours using the command and following the options in the interactive menu. Check the docs for more information!
 
-## Getting Started
-
 ## Dev Tools
 
 - ⚛ [React Native](https://reactnative.dev/) is used for UI.
