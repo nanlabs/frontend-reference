@@ -47,6 +47,13 @@ To send us a pull request, please:
 5. Send us a pull request, answering any default questions in the pull request template.
 6. Pay attention to any automated CI failures reported in the pull request, and stay involved in the conversation.
 
+### Updating the examples catalog
+
+The examples list in `README.md` is generated from `README.md.tmpl` and
+`examples.json` by the generate-readme workflow. When adding or updating an
+example, edit `examples.json` instead of changing only the generated README
+table.
+
 GitHub provides additional document on [forking a repository](https://help.github.com/articles/fork-a-repo/) and
 [creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
 
