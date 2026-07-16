@@ -22,7 +22,7 @@ ESLint is great for catching some of the bugs related to the language, but since
 
 ## Husky
 
-Husky is a tool for executing git hooks. Use Husky to run your code validations before every commit, thus making sure the code is in the best shape possible at any point of time and no faulty commits get into the repository It can run linting, code formatting and type checking, etc. before it allows pushing the code. You can check how to configure it [here](https://typicode.github.io/husky/#/?id=usage).
+Husky is a tool for executing git hooks. Use Husky to run your code validations before every commit, thus making sure the code is in the best shape possible at any point of time and no faulty commits get into the repository It can run linting, code formatting and type checking, etc. before it allows pushing the code. You can check how to configure it [Husky usage guide](https://typicode.github.io/husky/#/?id=usage).
 
 ## Absolute imports
 
