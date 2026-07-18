@@ -1,4 +1,6 @@
 <!--lint disable double-link awesome-heading awesome-git-repo-age awesome-toc-->
+<!-- markdownlint-disable MD013 -->
+<!-- textlint-disable terminology -->
 
 <div align="center">
 <p>
@@ -33,7 +35,6 @@ This repository contains different Frontend related resources like applications,
   - [Frontend](#frontend)
     - [Website Optimization and Performance](#website-optimization-and-performance)
     - [React State Management](#react-state-management)
-    - [React Router](#react-router)
     - [Microfrontend](#microfrontend)
     - [Styling and CSS](#styling-and-css)
     - [Virtual Dom](#virtual-dom)
@@ -118,12 +119,6 @@ This repository contains different Frontend related resources like applications,
 | [Valtio](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/bidirectional-valtio/)                                      | An example showcasing the use of Valtio for bidirectional state management in React applications.                                                      | _React_, _Valtio_, _State Management_                      |
 | [XState](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/fsm-xstate/)                                                | An example illustrating the use of XState for managing state with finite state machines in React applications.                                         | _React_, _XState_, _State Management_                      |
 | [Zustand](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/unidirectional-zustand/)                                   | An example illustrating the use of Zustand for unidirectional state management in React applications.                                                  | _React_, _Zustand_, _State Management_                     |
-
-#### React Router
-
-| Name                                                                                                                   | Description                                                                                                                              | Keywords                                 |
-| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| [React Router Types Guide](https://github.com/nanlabs/frontend-reference/tree/main/examples/react-router-router-types) | A guide comparing BrowserRouter, HashRouter, and MemoryRouter with practical React Router usage snippets and deployment/testing caveats. | _React_, _React Router_, _Routing_       |
 
 #### Microfrontend
 

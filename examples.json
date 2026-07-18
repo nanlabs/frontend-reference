@@ -314,10 +314,7 @@
       "name": "React Router Types Guide",
       "description": "A guide comparing BrowserRouter, HashRouter, and MemoryRouter with practical React Router usage snippets and deployment/testing caveats.",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/react-router-router-types",
-      "tags": [
-        "Guides, Tutorials and Best Practices",
-        "Examples > Frontend > React Router"
-      ],
+      "tags": ["Guides, Tutorials and Best Practices"],
       "labels": ["React", "React Router", "Routing", "BrowserRouter", "HashRouter", "MemoryRouter"]
     },
     {
