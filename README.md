@@ -33,6 +33,7 @@ This repository contains different Frontend related resources like applications,
   - [Frontend](#frontend)
     - [Website Optimization and Performance](#website-optimization-and-performance)
     - [React State Management](#react-state-management)
+    - [React Router](#react-router)
     - [Microfrontend](#microfrontend)
     - [Styling and CSS](#styling-and-css)
     - [Virtual Dom](#virtual-dom)
@@ -73,6 +74,7 @@ This repository contains different Frontend related resources like applications,
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | [Comparative Analysis between styled-components and Tailwind CSS](https://github.com/nanlabs/frontend-reference/tree/main/examples/styled-components-vs-tailwindcss/) | An article presenting a comparative analysis of styled-components and Tailwind CSS, focusing on practical implementations of a UI challenge using both libraries. | _CSS_, _styled-components_, _Tailwind CSS_, _UI Challenge_ |
 | [Navigator Clipboard API Integration Guide](https://github.com/nanlabs/frontend-reference/tree/main/examples/navigator-clipboard-api-integration)                     | A detailed guide to integrating the Navigator Clipboard API into web applications for seamless content sharing and enhanced user experience.                      | _Clipboard API_, _Integration_, _User Experience_          |
+| [React Router Types Guide](https://github.com/nanlabs/frontend-reference/tree/main/examples/react-router-router-types)                                                | A guide comparing BrowserRouter, HashRouter, and MemoryRouter with practical React Router usage snippets and deployment/testing caveats.                          | _React_, _React Router_, _Routing_                         |
 | [React Security Best Practices Guide](https://github.com/nanlabs/frontend-reference/tree/main/examples/react-security-best-practices)                                 | A checklist providing React security best practices to identify and address security issues, with guidance on automating security testing.                        | _React_, _Security_, _Best Practices_, _Automated Testing_ |
 | [Supercharge Your Website with Core Web Vitals](https://github.com/nanlabs/frontend-reference/tree/main/examples/seo-and-core-web-vitals)                             | A guide to optimizing website performance and SEO using Core Web Vitals, with practical tips and tools for delivering exceptional user experiences.               | _Core Web Vitals_, _SEO_, _Performance_, _User Experience_ |
 | [The Ultimate React State Management Framework](https://github.com/nanlabs/frontend-reference/tree/main/examples/the-ultimate-react-state-management-framework)       | An article presenting a step-by-step framework for making informed decisions in React state management, ensuring robust and maintainable applications.            | _React_, _State Management_, _Framework_, _Best Practices_ |
@@ -116,6 +118,12 @@ This repository contains different Frontend related resources like applications,
 | [Valtio](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/bidirectional-valtio/)                                      | An example showcasing the use of Valtio for bidirectional state management in React applications.                                                      | _React_, _Valtio_, _State Management_                      |
 | [XState](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/fsm-xstate/)                                                | An example illustrating the use of XState for managing state with finite state machines in React applications.                                         | _React_, _XState_, _State Management_                      |
 | [Zustand](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/unidirectional-zustand/)                                   | An example illustrating the use of Zustand for unidirectional state management in React applications.                                                  | _React_, _Zustand_, _State Management_                     |
+
+#### React Router
+
+| Name                                                                                                                   | Description                                                                                                                              | Keywords                                 |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| [React Router Types Guide](https://github.com/nanlabs/frontend-reference/tree/main/examples/react-router-router-types) | A guide comparing BrowserRouter, HashRouter, and MemoryRouter with practical React Router usage snippets and deployment/testing caveats. | _React_, _React Router_, _Routing_       |
 
 #### Microfrontend
 
