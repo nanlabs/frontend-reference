@@ -38,7 +38,12 @@
   "overrides": {
     "postcss": "^8.5.18",
     "brace-expansion": "^5.0.8",
-    "tar": "^7.5.21"
+    "tar": "^7.5.21",
+    "js-yaml": "^3.15.0",
+    "shell-quote": "^1.9.0",
+    "tmp": "^0.2.6",
+    "uuid": "^11.1.1",
+    "ws": "^8.21.0"
   },
   "private": true
 }
