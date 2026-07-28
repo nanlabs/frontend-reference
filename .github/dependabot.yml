@@ -1,0 +1,208 @@
+# Dependabot configuration for frontend-reference
+# See: https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+
+  - package-ecosystem: "npm"
+    directory: "/examples/nextjs-with-swr-example"
+    schedule:
+      interval: "weekly"
+    versioning-strategy: increase-if-necessary
+    open-pull-requests-limit: 10
+    groups:
+      nextjs:
+        patterns:
+          - "next"
+          - "eslint-config-next"
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
+      typescript:
+        patterns:
+          - "typescript"
+          - "@types/node"
+      eslint:
+        patterns:
+          - "eslint*"
+
+  - package-ecosystem: "npm"
+    directory: "/examples/million-poc-performance"
+    schedule:
+      interval: "weekly"
+    versioning-strategy: increase-if-necessary
+    open-pull-requests-limit: 10
+    groups:
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
+      vite:
+        patterns:
+          - "vite"
+          - "@vitejs/*"
+          - "vite-plugin-*"
+      testing:
+        patterns:
+          - "jest*"
+          - "@testing-library/*"
+          - "ts-jest"
+      typescript:
+        patterns:
+          - "typescript"
+          - "@types/node"
+      eslint:
+        patterns:
+          - "eslint*"
+          - "@typescript-eslint/*"
+
+  - package-ecosystem: "npm"
+    directory: "/examples/react-vite-capacitor-example"
+    schedule:
+      interval: "weekly"
+    versioning-strategy: increase-if-necessary
+    open-pull-requests-limit: 10
+    groups:
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
+      vite:
+        patterns:
+          - "vite"
+          - "@vitejs/*"
+          - "vite-plugin-*"
+      testing:
+        patterns:
+          - "jest*"
+          - "@testing-library/*"
+          - "ts-jest"
+      typescript:
+        patterns:
+          - "typescript"
+          - "@types/node"
+      eslint:
+        patterns:
+          - "eslint*"
+          - "@typescript-eslint/*"
+
+  - package-ecosystem: "npm"
+    directory: "/examples/react-vite-electron-example"
+    schedule:
+      interval: "weekly"
+    versioning-strategy: increase-if-necessary
+    open-pull-requests-limit: 10
+    groups:
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
+      vite:
+        patterns:
+          - "vite"
+          - "@vitejs/*"
+          - "vite-plugin-*"
+          - "vite-electron-plugin"
+      electron:
+        patterns:
+          - "electron"
+          - "electron-builder"
+      testing:
+        patterns:
+          - "jest*"
+          - "@testing-library/*"
+          - "ts-jest"
+      typescript:
+        patterns:
+          - "typescript"
+          - "@types/node"
+      eslint:
+        patterns:
+          - "eslint*"
+          - "@typescript-eslint/*"
+
+  - package-ecosystem: "npm"
+    directory: "/examples/react-native-expo-router"
+    schedule:
+      interval: "weekly"
+    versioning-strategy: increase-if-necessary
+    open-pull-requests-limit: 10
+    groups:
+      expo:
+        patterns:
+          - "expo"
+          - "expo-*"
+      react-native:
+        patterns:
+          - "react-native"
+          - "react-native-*"
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+      eslint:
+        patterns:
+          - "eslint*"
+
+  - package-ecosystem: "npm"
+    directory: "/examples/react-native-expo-router-with-shared-routes"
+    schedule:
+      interval: "weekly"
+    versioning-strategy: increase-if-necessary
+    open-pull-requests-limit: 10
+    groups:
+      expo:
+        patterns:
+          - "expo"
+          - "expo-*"
+      react-native:
+        patterns:
+          - "react-native"
+          - "react-native-*"
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+      eslint:
+        patterns:
+          - "eslint*"
+
+  - package-ecosystem: "npm"
+    directory: "/examples/state-management"
+    schedule:
+      interval: "weekly"
+    versioning-strategy: increase-if-necessary
+    open-pull-requests-limit: 10
+    groups:
+      development:
+        patterns:
+          - "concurrently"
+          - "wsrun"
+
+  - package-ecosystem: "npm"
+    directory: "/tools/danger"
+    schedule:
+      interval: "monthly"
+    versioning-strategy: increase-if-necessary
+    open-pull-requests-limit: 5
+    allow:
+      - dependency-type: "direct"
