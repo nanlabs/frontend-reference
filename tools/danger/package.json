@@ -19,6 +19,9 @@
     "url": "https://github.com/nanlabs/nancy.js/issues"
   },
   "homepage": "https://github.com/nanlabs/nancy.js#readme",
+  "overrides": {
+    "undici": "^6.27.0"
+  },
   "devDependencies": {
     "danger": "^13.0.0",
     "typescript": "^7.0.2"
