@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "effector": "^22.1.2",
-    "effector-react": "^22.0.6",
+    "effector-react": "^23.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
