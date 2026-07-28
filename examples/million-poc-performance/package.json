@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "million": "^2.5.10",
-    "nanoid": "^4.0.2",
+    "nanoid": "^5.0.9",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-router-dom": "^6.15.0",
