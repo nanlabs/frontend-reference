@@ -33,6 +33,9 @@
     "react-router-dom": "^6.17.0",
     "web-vitals": "^2.1.4"
   },
+  "overrides": {
+    "postcss": "^8.5.18"
+  },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
