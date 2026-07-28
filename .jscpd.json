@@ -1,0 +1,10 @@
+{
+  "threshold": 0,
+  "pattern": "**/*",
+  "ignore": [
+    ".github/dependabot.yml",
+    "**/package-lock.json",
+    "**/yarn.lock",
+    "**/yarn-error.log"
+  ]
+}
