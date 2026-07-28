@@ -9,16 +9,16 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v7
 
       - name: Checkout awesome-nan
-        uses: actions/checkout@v2
+        uses: actions/checkout@v7
         with:
           repository: nanlabs/awesome-nan
           path: awesome-nan
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v7
         with:
           node-version: 16
 
@@ -42,7 +42,7 @@ jobs:
           files: README.md
 
       - name: Commit changes
-        uses: EndBug/add-and-commit@v7
+        uses: EndBug/add-and-commit@v10
         with:
           message: "Update README"
           add: README.md
