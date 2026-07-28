@@ -11,7 +11,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "expo": "~50.0.17",
+    "expo": "~57.0.7",
     "expo-constants": "~15.4.6",
     "expo-linking": "~6.2.2",
     "expo-router": "~3.4.10",
