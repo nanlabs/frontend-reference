@@ -1,0 +1,223 @@
+:root {
+  color: #e6edf3;
+  background: #0d1117;
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+.markstream-example {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 0%, rgb(31 111 235 / 20%), transparent 34rem),
+    radial-gradient(circle at 92% 86%, rgb(137 87 229 / 18%), transparent 30rem), #0d1117;
+}
+
+.markstream-example__header,
+.markstream-example__main,
+.markstream-example__footer {
+  width: min(1100px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.markstream-example__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 2.5rem 0 1rem;
+}
+
+.markstream-example__eyebrow,
+.markstream-example__kicker {
+  margin: 0;
+  color: #8b949e;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.markstream-example__header h1 {
+  margin: 0.45rem 0 0;
+  color: #f0f6fc;
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  letter-spacing: -0.04em;
+}
+
+.markstream-example__badge,
+.markstream-example__status {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #30363d;
+  border-radius: 999px;
+  color: #8b949e;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0.45rem 0.75rem;
+  white-space: nowrap;
+}
+
+.markstream-example__main {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 1rem;
+  padding: 2rem 0 3rem;
+}
+
+.markstream-example__intro,
+.markstream-example__preview {
+  border: 1px solid #30363d;
+  border-radius: 1rem;
+  background: rgb(22 27 34 / 88%);
+  box-shadow: 0 20px 60px rgb(0 0 0 / 20%);
+}
+
+.markstream-example__intro {
+  align-self: start;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.markstream-example__intro h2 {
+  max-width: 12ch;
+  margin: 0.75rem 0 1rem;
+  color: #f0f6fc;
+  font-size: clamp(2rem, 5vw, 3.75rem);
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+
+.markstream-example__intro p:not(.markstream-example__kicker) {
+  max-width: 48ch;
+  margin: 0;
+  color: #8b949e;
+  line-height: 1.7;
+}
+
+.markstream-example__intro code,
+.markstream-example__footer code {
+  color: #d2a8ff;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+}
+
+.markstream-example__button {
+  margin-top: 1.75rem;
+  border: 0;
+  border-radius: 0.65rem;
+  background: #238636;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 0.8rem 1rem;
+  transition:
+    background 160ms ease,
+    transform 160ms ease;
+}
+
+.markstream-example__button:hover:not(:disabled) {
+  background: #2ea043;
+  transform: translateY(-1px);
+}
+
+.markstream-example__button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.markstream-example__preview {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.markstream-example__preview-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid #30363d;
+  color: #f0f6fc;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.85rem 1rem;
+}
+
+.markstream-example__status {
+  border: 0;
+  color: #7ee787;
+  font-size: 0.7rem;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.markstream-example__markdown {
+  min-height: 26rem;
+  padding: 1rem 1.25rem 1.5rem;
+}
+
+.markstream-example__markdown .markstream-react {
+  color: #c9d1d9;
+}
+
+.markstream-example__empty {
+  margin: 0;
+  color: #8b949e;
+}
+
+.markstream-example__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border-top: 1px solid #21262d;
+  color: #8b949e;
+  font-size: 0.85rem;
+  padding: 1.25rem 0 2rem;
+}
+
+.markstream-example__footer p {
+  margin: 0;
+}
+
+.markstream-example__footer a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.markstream-example__footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+  .markstream-example__header,
+  .markstream-example__footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .markstream-example__main {
+    grid-template-columns: 1fr;
+  }
+}

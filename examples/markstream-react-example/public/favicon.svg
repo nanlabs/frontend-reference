@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" aria-labelledby="faviconTitle">
+  <title id="faviconTitle">Create Awesome Node App</title>
+  <defs>
+    <linearGradient id="cnaFav" x1="4" y1="4" x2="28" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="#fff8f1"/>
+  <path
+    d="M16 5c-1.2 0-2.3.6-3 1.5l-7 11.2c-1.1 1.8-.2 4.2 2 4.7V24c0 2 1.6 3.6 3.6 3.6h8.8c2 0 3.6-1.6 3.6-3.6v-1.6c2.2-.5 3.1-2.9 2-4.7L19 6.5C18.3 5.6 17.2 5 16 5Z"
+    stroke="url(#cnaFav)"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+  <circle cx="16" cy="14" r="2.5" fill="#f59e0b"/>
+  <circle cx="9.5" cy="24" r="2.5" fill="#0d9488"/>
+  <circle cx="22.5" cy="24" r="2.5" fill="#d97706"/>
+</svg>
