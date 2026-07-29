@@ -28,9 +28,9 @@ This repository contains different Frontend related resources like applications,
 
 - [Apps and Boilerplates](#apps-and-boilerplates)
 - [Node Packages](#node-packages)
-- [Guides, Tutorials and Best Practices](#guides-tutorials-and-best-practices)
 - [Examples](#examples)
   - [Frontend](#frontend)
+    - [React](#react)
     - [Website Optimization and Performance](#website-optimization-and-performance)
     - [React State Management](#react-state-management)
     - [Microfrontend](#microfrontend)
@@ -41,6 +41,7 @@ This repository contains different Frontend related resources like applications,
     - [React Native](#react-native)
       - [Expo](#expo)
     - [Clipboard Integration](#clipboard-integration)
+- [Guides, Tutorials and Best Practices](#guides-tutorials-and-best-practices)
 
 - [Contributing](#contributing)
 - [Contributors](#contributors)
@@ -67,20 +68,15 @@ This repository contains different Frontend related resources like applications,
 | [@nanlabs/react-ui](https://www.npmjs.com/package/@nanlabs/react-ui)                       | A comprehensive library of React components designed to accelerate UI development with a consistent design system.                                               | _React_, _Components_, _UI_, _Design System_, _Reusable_              |
 | [@nanlabs/thirdparty](https://www.npmjs.com/package/@nanlabs/thirdparty)                   | A utility library providing tools for integrating third-party services into web applications, including support for APIs like Google ReCaptcha.                  | _Third-Party Tools_, _Integrations_, _Web Development_                |
 
-## Guides, Tutorials and Best Practices
-
-| Name                                                                                                                                                                  | Description                                                                                                                                                       | Keywords                                                                          |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| [Comparative Analysis between styled-components and Tailwind CSS](https://github.com/nanlabs/frontend-reference/tree/main/examples/styled-components-vs-tailwindcss/) | An article presenting a comparative analysis of styled-components and Tailwind CSS, focusing on practical implementations of a UI challenge using both libraries. | _CSS_, _styled-components_, _Tailwind CSS_, _UI Challenge_                        |
-| [Navigator Clipboard API Integration Guide](https://github.com/nanlabs/frontend-reference/tree/main/examples/navigator-clipboard-api-integration)                     | A detailed guide to integrating the Navigator Clipboard API into web applications for seamless content sharing and enhanced user experience.                      | _Clipboard API_, _Integration_, _User Experience_                                 |
-| [React Router Types Guide](https://github.com/nanlabs/frontend-reference/tree/main/examples/react-router-router-types)                                                | A guide comparing BrowserRouter, HashRouter, and MemoryRouter with practical React Router usage snippets and deployment/testing caveats.                          | _React_, _React Router_, _Routing_, _BrowserRouter_, _HashRouter_, _MemoryRouter_ |
-| [React Security Best Practices Guide](https://github.com/nanlabs/frontend-reference/tree/main/examples/react-security-best-practices)                                 | A checklist providing React security best practices to identify and address security issues, with guidance on automating security testing.                        | _React_, _Security_, _Best Practices_, _Automated Testing_                        |
-| [Supercharge Your Website with Core Web Vitals](https://github.com/nanlabs/frontend-reference/tree/main/examples/seo-and-core-web-vitals)                             | A guide to optimizing website performance and SEO using Core Web Vitals, with practical tips and tools for delivering exceptional user experiences.               | _Core Web Vitals_, _SEO_, _Performance_, _User Experience_                        |
-| [The Ultimate React State Management Framework](https://github.com/nanlabs/frontend-reference/tree/main/examples/the-ultimate-react-state-management-framework)       | An article presenting a step-by-step framework for making informed decisions in React state management, ensuring robust and maintainable applications.            | _React_, _State Management_, _Framework_, _Best Practices_                        |
-
 ## Examples
 
 ### Frontend
+
+#### React
+
+| Name                                                                                                                             | Description                                                                                                                                                 | Keywords                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| [Markstream React Streaming Markdown](https://github.com/nanlabs/frontend-reference/tree/main/examples/markstream-react-example) | A React + Vite example showing how to progressively render incomplete Markdown as an AI response arrives. It uses a local mock stream and markstream-react. | _React_, _Vite_, _Streaming Markdown_, _AI Chat_, _Markstream_ |
 
 #### Website Optimization and Performance
 
@@ -164,6 +160,17 @@ This repository contains different Frontend related resources like applications,
 | Name                                                                                                                                              | Description                                                                                                                                  | Keywords                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
 | [Navigator Clipboard API Integration Guide](https://github.com/nanlabs/frontend-reference/tree/main/examples/navigator-clipboard-api-integration) | A detailed guide to integrating the Navigator Clipboard API into web applications for seamless content sharing and enhanced user experience. | _Clipboard API_, _Integration_, _User Experience_ |
+
+## Guides, Tutorials and Best Practices
+
+| Name                                                                                                                                                                  | Description                                                                                                                                                       | Keywords                                                                          |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| [Comparative Analysis between styled-components and Tailwind CSS](https://github.com/nanlabs/frontend-reference/tree/main/examples/styled-components-vs-tailwindcss/) | An article presenting a comparative analysis of styled-components and Tailwind CSS, focusing on practical implementations of a UI challenge using both libraries. | _CSS_, _styled-components_, _Tailwind CSS_, _UI Challenge_                        |
+| [Navigator Clipboard API Integration Guide](https://github.com/nanlabs/frontend-reference/tree/main/examples/navigator-clipboard-api-integration)                     | A detailed guide to integrating the Navigator Clipboard API into web applications for seamless content sharing and enhanced user experience.                      | _Clipboard API_, _Integration_, _User Experience_                                 |
+| [React Router Types Guide](https://github.com/nanlabs/frontend-reference/tree/main/examples/react-router-router-types)                                                | A guide comparing BrowserRouter, HashRouter, and MemoryRouter with practical React Router usage snippets and deployment/testing caveats.                          | _React_, _React Router_, _Routing_, _BrowserRouter_, _HashRouter_, _MemoryRouter_ |
+| [React Security Best Practices Guide](https://github.com/nanlabs/frontend-reference/tree/main/examples/react-security-best-practices)                                 | A checklist providing React security best practices to identify and address security issues, with guidance on automating security testing.                        | _React_, _Security_, _Best Practices_, _Automated Testing_                        |
+| [Supercharge Your Website with Core Web Vitals](https://github.com/nanlabs/frontend-reference/tree/main/examples/seo-and-core-web-vitals)                             | A guide to optimizing website performance and SEO using Core Web Vitals, with practical tips and tools for delivering exceptional user experiences.               | _Core Web Vitals_, _SEO_, _Performance_, _User Experience_                        |
+| [The Ultimate React State Management Framework](https://github.com/nanlabs/frontend-reference/tree/main/examples/the-ultimate-react-state-management-framework)       | An article presenting a step-by-step framework for making informed decisions in React state management, ensuring robust and maintainable applications.            | _React_, _State Management_, _Framework_, _Best Practices_                        |
 
 ## Contributing
 
