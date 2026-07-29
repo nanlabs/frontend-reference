@@ -1,13 +1,14 @@
 # Markstream React streaming example
 
-This example shows how to render incomplete Markdown as an AI response arrives in a React + Vite application. It uses a local mock stream, so it runs without an API key or backend.
+This example shows how to smoothly render incomplete Markdown as an AI response arrives in a React + Vite application. It uses a local mock stream, so it runs without an API key or backend.
 
 ## What it demonstrates
 
 - Installing `markstream-react` in a React application.
 - Appending Markdown chunks as they arrive from a stream.
+- Letting `markstream-react` pace the visible text between incoming chunks.
 - Passing the current `content` and `final` state to `MarkdownRender`.
-- Rendering code blocks, lists, and tables while the response is still incomplete.
+- Rendering code blocks as stable `pre` elements while the response is still incomplete.
 
 The same pattern can be used with an SSE or WebSocket handler: append each received chunk to `content`, then set `final` to `true` when the stream emits its completion event.
 
@@ -27,7 +28,7 @@ Open the local URL printed by Vite and click **Start mock stream**.
 import MarkdownRender from 'markstream-react';
 import 'markstream-react/index.css';
 
-<MarkdownRender content={content} final={isDone} fade={false} />;
+<MarkdownRender content={content} final={isDone} typewriter smoothStreaming renderCodeBlocksAsPre fade={false} />;
 ```
 
 `markstream-react` is the React renderer in the Markstream family. The family also includes Vue, Svelte, Angular, Vue 2, and framework-agnostic parser/core packages. See the [framework overview](https://markstream.simonhe.me/frameworks) for the package matrix.

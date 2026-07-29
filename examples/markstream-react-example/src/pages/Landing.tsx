@@ -5,17 +5,18 @@ import 'markstream-react/index.css';
 
 import './Landing.css';
 
-const streamChunks = [
+const streamContent = [
   '# Streaming Markdown\n\n',
-  'This response is arriving **one chunk at a time**.\n\n',
-  'Markstream keeps the message readable while the model is still writing:\n\n',
+  'This response is arriving continuously while the renderer keeps it readable.\n\n',
+  'Markstream smooths incoming chunks instead of waiting for complete paragraphs:\n\n',
   '- Lists can grow without flicker\n',
   '- `code` stays Markdown-aware\n\n',
-  '```tsx\nconst answer = await stream();\n',
-  '```\n\n',
+  '```tsx\nconst answer = await stream();\n```\n\n',
   '| Input | Rendered as |\n| --- | --- |\n',
-  '| SSE / WebSocket | Incremental Markdown |\n',
-];
+  '| SSE / WebSocket | Smooth Markdown |\n',
+].join('');
+
+const streamChunks = streamContent.match(/[\s\S]{1,18}/g) ?? [];
 
 const Landing = () => {
   const [content, setContent] = useState('');
@@ -42,7 +43,7 @@ const Landing = () => {
 
       setContent((current) => current + chunk);
       chunkIndex += 1;
-      timer.current = window.setTimeout(appendChunk, 450);
+      timer.current = window.setTimeout(appendChunk, 140);
     };
 
     appendChunk();
@@ -63,8 +64,8 @@ const Landing = () => {
           <p className="markstream-example__kicker">Streaming Markdown for AI chat</p>
           <h2>Render the answer before the model is finished.</h2>
           <p>
-            This example uses a mock token stream to show how <code>markstream-react</code> progressively renders
-            incomplete Markdown in a React application.
+            This example uses a mock token stream to show how <code>markstream-react</code> smoothly renders incomplete
+            Markdown in a React application.
           </p>
           <button type="button" className="markstream-example__button" onClick={startStream} disabled={isStreaming}>
             {isStreaming ? 'Streaming…' : 'Start mock stream'}
@@ -78,7 +79,20 @@ const Landing = () => {
           </div>
           <div className="markstream-example__markdown">
             {content ? (
-              <MarkdownRender content={content} final={isDone} fade={false} />
+              <MarkdownRender
+                content={content}
+                final={isDone}
+                fade={false}
+                typewriter
+                smoothStreaming
+                smoothStreamingOptions={{
+                  minCharsPerSecond: 24,
+                  maxCharsPerSecond: 80,
+                  targetLatencyMs: 260,
+                  maxCommitFps: 30,
+                }}
+                renderCodeBlocksAsPre
+              />
             ) : (
               <p className="markstream-example__empty">Click “Start mock stream” to see incremental Markdown.</p>
             )}
