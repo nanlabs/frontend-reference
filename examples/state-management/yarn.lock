@@ -1787,10 +1787,10 @@ jest-changed-files@^24.9.0:
     execa "^1.0.0"
     throat "^4.0.0"
 
-jotai@^1.4.9:
-  version "1.4.9"
-  resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.4.9.tgz#e16dec961260995879d412c7809710b38d49b3e1"
-  integrity sha512-NHh3UIIelfUBUjcJi+oXHoL9rISkj8LZu3eeXR5KL1VBYLOuPVK0TTTDfbgdwm5B83zpxNAhTlhb/aKlJBtP0g==
+jotai@^2.20.2:
+  version "2.20.2"
+  resolved "https://registry.yarnpkg.com/jotai/-/jotai-2.20.2.tgz#fccdc02ee68b314c2a723a8b9c35de6fcca5e644"
+  integrity sha512-aHB4CNb9qRcyf0mwSB6EO5bCGAjx8cTwFgOFCE2leOnTzqACbnSWG8XoWB3LxCT1Qoj03I1OWAHszDmN4uHb/w==
 
 js-cookie@^3.0.0, js-cookie@^3.0.7:
   version "3.0.8"
