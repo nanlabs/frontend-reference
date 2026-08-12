@@ -270,9 +270,9 @@
     "@babel/helper-validator-identifier" "^7.29.7"
 
 "@datorama/akita@^7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@datorama/akita/-/akita-7.0.1.tgz#9b6cf3f2c7a2199e56bd9838742819f21239c3ed"
-  integrity sha512-mnt9S4g2r3+jcwBSbDppGLsZqx6NNNHX+I79One3I7BWqosw18tKDuC0dEwhWJUb/ZOycuq/q2Bm1sGRSkungg==
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@datorama/akita/-/akita-7.1.1.tgz#912cf78c190a765ac815adee16116b688dd1edc0"
+  integrity sha512-x/RgwleA1u/Z3ICL7OBSsiUByzIwSjAnx4IcdgIYS090wc2C94u4UG5mWP8Yx98NUS6mnFeHLUVllXP+BQsl1A==
   dependencies:
     schematics-utilities "^2.0.3"
 
@@ -2055,7 +2055,7 @@ nano-time@1.0.0:
   dependencies:
     big-integer "^1.6.16"
 
-nanoid@^3.3.12, nanoid@^3.3.16:
+nanoid@^3.3.12, nanoid@^3.3.16, nanoid@^3.3.17:
   version "3.3.18"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.18.tgz#f66a2de1199ffde0fcf21c8a5f13106b1c081913"
   integrity sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==
@@ -2370,11 +2370,11 @@ postcss@^8.1.6:
     source-map-js "^1.2.1"
 
 postcss@^8.4.27:
-  version "8.5.25"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.25.tgz#5012a598eaaa897f21bbe8553be3cb7bd2bd78cb"
-  integrity sha512-DTPx3RWSSnWyzLxQnlH0rJP+EW5ekl16ZU4/psbIhA0e53kJfdgaN5vKM+xP7yJtXVu+nfdVFmlgFDEKAe4Pyw==
+  version "8.5.26"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.26.tgz#6e75135780c7e10df3433bf2266c552d35c8c620"
+  integrity sha512-u82N74LFzG8ca+dD8puPnplTXoGH4fTPpVGuIbt36G3qvNlkvfD0lEAZSxaly3KX8TS/L1A1gsCEmvKmBcVbkQ==
   dependencies:
-    nanoid "^3.3.16"
+    nanoid "^3.3.17"
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
