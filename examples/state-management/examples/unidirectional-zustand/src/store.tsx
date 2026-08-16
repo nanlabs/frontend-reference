@@ -1,4 +1,4 @@
-import create from "zustand";
+import { create } from "zustand";
 
 interface ApplicationState {
   seconds: number;
@@ -10,7 +10,7 @@ interface ApplicationState {
 
 let namesRequest: Promise<{ names: string[] }>;
 
-export const useApplicationState = create<ApplicationState>((set, get) => ({
+export const useApplicationState = create<ApplicationState>()((set, get) => ({
   seconds: 0,
   running: false,
   names: undefined,
