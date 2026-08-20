@@ -1687,10 +1687,12 @@ mobx-react-lite@^3.2.3:
   resolved "https://registry.yarnpkg.com/mobx-react-lite/-/mobx-react-lite-3.2.3.tgz#83d2b32ebf4383cd0dc0d397acbf53a8e9c66765"
   integrity sha512-7exWp1FV0M9dP08H9PIeHlJqDw4IdkQVRMfLYaZFMmlbzSS6ZU6p/kx392KN+rVf81hH3IQYewvRGQ70oiwmbw==
 
-mobx-state-tree@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/mobx-state-tree/-/mobx-state-tree-5.1.0.tgz#f2d8d32aa8743c2f52e57bd1c15d92395ac50cdb"
-  integrity sha512-tsKAV2OK4DisP2/SOK8K6d5dnelTR1E0pIHVWqjVxxyZgcCanFIA3GNvcN7k4sjppVmq26d0LEYjiD7AvthOAw==
+mobx-state-tree@^7.3.2:
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/mobx-state-tree/-/mobx-state-tree-7.3.2.tgz#7b5528134765341b7efacd40252fd7012e822545"
+  integrity sha512-Owf+2CkqUFLXevr+mZVY7dvY7fG7HSCGwmd0sdNOiu/A34tCz9Yc1Cu7vlGpafqBr4cRLWZAbynvoUKFyJuT2w==
+  dependencies:
+    ts-essentials "^9.4.1"
 
 mobx@^7.0.0:
   version "7.0.0"
@@ -2652,6 +2654,11 @@ ts-easing@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/ts-easing/-/ts-easing-0.2.0.tgz#c8a8a35025105566588d87dbda05dd7fbfa5a4ec"
   integrity sha512-Z86EW+fFFh/IFB1fqQ3/+7Zpf9t2ebOAxNI/V6Wo7r5gqiqtxmgTlQ1qbqQcjLKYeSHPTsEmvlJUDg/EuL0uHQ==
+
+ts-essentials@^9.4.1:
+  version "9.4.2"
+  resolved "https://registry.yarnpkg.com/ts-essentials/-/ts-essentials-9.4.2.tgz#6d4bd23b46b61bf3e031816cc887e839eb62c33c"
+  integrity sha512-mB/cDhOvD7pg3YCLk2rOtejHjjdSi9in/IBYE13S+8WA5FBSraYf4V/ws55uvs0IvQ/l0wBOlXy5yBNZ9Bl8ZQ==
 
 tslib@^1.9.0:
   version "1.14.1"

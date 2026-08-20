@@ -10,7 +10,7 @@
   "dependencies": {
     "mobx": "^7.0.0",
     "mobx-react-lite": "^3.2.3",
-    "mobx-state-tree": "^5.1.0",
+    "mobx-state-tree": "^7.3.2",
     "react": "^17.0.2",
     "react-dom": "^19.2.8"
   },
