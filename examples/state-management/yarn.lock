@@ -2493,9 +2493,9 @@ stacktrace-js@^2.0.2:
     stacktrace-gps "^3.0.4"
 
 storeon@^3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/storeon/-/storeon-3.1.4.tgz#36366161f6d19c6560bc8f98ad96e1781538227e"
-  integrity sha512-GUSyCevVP00T5b5/Z05ZGkrJFh4IbXjCAl+R27pBslamFLS/qSxJoSwYIGbIZOjujRAgUiWIzPDZP6Ma3vSR9Q==
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/storeon/-/storeon-3.1.5.tgz#b64c829d45a4746dee4aa31d646cfcb54597d70a"
+  integrity sha512-VuW4GQr3LGQr+gqscqsOz2c9asK9N+B+8+sWs7Pj4OqU7bngYIqsPF3IYpkbmccKNWjs7wwxUAlR+gtL9cEMEg==
 
 stream-each@^1.1.0:
   version "1.2.3"
