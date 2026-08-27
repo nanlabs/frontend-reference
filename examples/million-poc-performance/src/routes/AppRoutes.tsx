@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router';
 
 import Base001 from '@/pages/experiment001/Base001';
 import Base from '@/pages/experiment003/Base';
