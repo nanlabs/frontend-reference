@@ -1526,9 +1526,9 @@ js-sha3@0.8.0:
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
 js-yaml@^3.15.0:
-  version "3.15.1"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.15.1.tgz#24bc95028f361cdaaa84745b06a109c4486773c0"
-  integrity sha512-S99WuO3HlhO3XN41EtYUNl9zzXjoJx7QvmipxsJVxtCBT0YHEFy+iOJhjSvrmV12nYhWpZaM8lPHkJm0yUMbag==
+  version "3.15.2"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.15.2.tgz#3f83823ac6be17f570f23b2ecdef3777ff5ea364"
+  integrity sha512-6EuL879VkRA+1Cz578mKMiKvjPNEuk6+r1JaFzoSWejZmtf7xWbIyw1e3KkxlkzTIt9Taw6JBhEppG7utc1P+w==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -1688,9 +1688,9 @@ mobx-react-lite@^3.2.3:
   integrity sha512-7exWp1FV0M9dP08H9PIeHlJqDw4IdkQVRMfLYaZFMmlbzSS6ZU6p/kx392KN+rVf81hH3IQYewvRGQ70oiwmbw==
 
 mobx-state-tree@^7.3.2:
-  version "7.3.2"
-  resolved "https://registry.yarnpkg.com/mobx-state-tree/-/mobx-state-tree-7.3.2.tgz#7b5528134765341b7efacd40252fd7012e822545"
-  integrity sha512-Owf+2CkqUFLXevr+mZVY7dvY7fG7HSCGwmd0sdNOiu/A34tCz9Yc1Cu7vlGpafqBr4cRLWZAbynvoUKFyJuT2w==
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/mobx-state-tree/-/mobx-state-tree-7.4.0.tgz#ddf0405a126df792955e5fa3012384fd58c9d839"
+  integrity sha512-NfOgl47Eov6tgfmIWZCJiflBn+kuQScOd4uSZjygNgZuKT/heXggmA27KfxNxp6PZrxkROliA1yAApnsPww4JA==
   dependencies:
     ts-essentials "^9.4.1"
 
