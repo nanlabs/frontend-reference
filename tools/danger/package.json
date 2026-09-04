@@ -23,7 +23,7 @@
     "undici": "^6.27.0"
   },
   "devDependencies": {
-    "danger": "^13.0.0",
+    "danger": "^14.0.7",
     "typescript": "^7.0.2"
   }
 }
