@@ -1,0 +1,3 @@
+[codespell]
+# Words codespell flags that are legitimate in this repo (e.g. npm package names).
+ignore-words-list = thirdparty

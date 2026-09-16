@@ -27,7 +27,12 @@
       "description": "A React library offering components that integrate with third-party services like Google ReCaptcha, enabling seamless external integrations.",
       "url": "https://www.npmjs.com/package/@nanlabs/react-thirdparty",
       "tags": ["Node Packages"],
-      "labels": ["React", "Components", "Third-Party Integrations", "Google ReCaptcha"]
+      "labels": [
+        "React",
+        "Components",
+        "Third-Party Integrations",
+        "Google ReCaptcha"
+      ]
     },
     {
       "name": "@nanlabs/thirdparty",
@@ -41,7 +46,12 @@
       "description": "A TypeScript library offering functional programming utilities, including type guards, error handling, and other tools to write cleaner, more maintainable code.",
       "url": "https://www.npmjs.com/package/@nanlabs/fp",
       "tags": ["Node Packages"],
-      "labels": ["Functional Programming", "TypeScript", "Utilities", "Error Handling"]
+      "labels": [
+        "Functional Programming",
+        "TypeScript",
+        "Utilities",
+        "Error Handling"
+      ]
     },
     {
       "name": "@nanlabs/eslint-config",
@@ -288,7 +298,13 @@
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-shell-react-vue-app/",
       "description": "An example showcasing a microfrontend project with shared React Router in a container application and independent Vue application.",
       "tags": ["Examples > Frontend > Microfrontend"],
-      "labels": ["React", "Vue", "Microfrontend", "Shared Router", "Integration"]
+      "labels": [
+        "React",
+        "Vue",
+        "Microfrontend",
+        "Shared Router",
+        "Integration"
+      ]
     },
     {
       "name": "Comparative Analysis between styled-components and Tailwind CSS",
@@ -322,7 +338,14 @@
       "description": "A guide comparing BrowserRouter, HashRouter, and MemoryRouter with practical React Router usage snippets and deployment/testing caveats.",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/react-router-router-types",
       "tags": ["Guides, Tutorials and Best Practices"],
-      "labels": ["React", "React Router", "Routing", "BrowserRouter", "HashRouter", "MemoryRouter"]
+      "labels": [
+        "React",
+        "React Router",
+        "Routing",
+        "BrowserRouter",
+        "HashRouter",
+        "MemoryRouter"
+      ]
     },
     {
       "name": "NextJS with SWR",
@@ -374,6 +397,48 @@
         "Examples > Frontend > Clipboard Integration"
       ],
       "labels": ["Clipboard API", "Integration", "User Experience"]
+    },
+    {
+      "name": "Nielsen Heuristics Evaluation Guide",
+      "description": "Score any interface against Jakob Nielsen's 10 usability heuristics with a practical 1-5 rubric for design reviews and QA.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/nielsen-heuristics-evaluation-guide",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > React"
+      ],
+      "labels": [
+        "Usability",
+        "Heuristics",
+        "UX",
+        "Accessibility",
+        "Best Practices"
+      ]
+    },
+    {
+      "name": "GenAI Conversational UI Patterns",
+      "description": "Design patterns for AI chat experiences: citations, personalization, privacy, accessibility, chunking, multimodality, memory, feedback, and errors.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/genai-conversational-ui-patterns",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > React"
+      ],
+      "labels": ["GenAI", "Chat", "Conversational UI", "UX Patterns", "AI"]
+    },
+    {
+      "name": "Visual UI Code Generation Tools Matrix",
+      "description": "When to use v0, Plasmic, Builder.io, or Locofy for design-to-code, with a comparative matrix and use-case recommendations.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/visual-ui-code-generation-tools-matrix",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > React"
+      ],
+      "labels": [
+        "Code Generation",
+        "Figma",
+        "v0",
+        "Prototyping",
+        "Best Practices"
+      ]
     }
   ]
 }
