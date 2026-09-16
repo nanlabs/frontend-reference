@@ -1,7 +1,7 @@
 module.exports = {
   extends: ['plugin:react/recommended', 'plugin:prettier/recommended', 'plugin:@typescript-eslint/recommended'],
   parserOptions: {
-    project: './tsconfig.json',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
     ecmaVersion: 2020,
     ecmaFeatures: {
       jsx: true,

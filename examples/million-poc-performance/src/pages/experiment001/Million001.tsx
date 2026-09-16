@@ -17,6 +17,6 @@ const Millon001 = block(() => {
       <For each={array}>{(value) => <ItemBlock key={value} value={value} />}</For>
     </div>
   );
-});
+}) as React.FC;
 
 export default Millon001;

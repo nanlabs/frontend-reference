@@ -25,6 +25,6 @@ const Million002 = block(() => {
       ))}
     </div>
   );
-});
+}) as React.FC;
 
 export default Million002;

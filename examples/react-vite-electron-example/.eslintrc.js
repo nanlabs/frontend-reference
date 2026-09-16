@@ -1,7 +1,7 @@
 module.exports = {
   extends: ['plugin:react/recommended', 'plugin:prettier/recommended', 'plugin:@typescript-eslint/recommended'],
   parserOptions: {
-    project: './tsconfig.json',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
     ecmaVersion: 2020,
     ecmaFeatures: {
       jsx: true,
@@ -30,6 +30,11 @@ module.exports = {
           },
         ],
       },
+    },
+    {
+      // Plain JS out of any tsconfig project: lint without type information.
+      files: ['electron/*.js'],
+      parser: 'espree',
     },
   ],
 };

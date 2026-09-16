@@ -23,6 +23,6 @@ const Million002 = block(() => {
       <For each={array}>{(value) => <Item key={value} value={value} />}</For>
     </div>
   );
-});
+}) as React.FC;
 
 export default Million002;

@@ -18,7 +18,7 @@ export const generateRandomArray = (length: number) =>
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value);
 
-export const generateRandomArrayString = (length: number) => Array.from({ length }, nanoid);
+export const generateRandomArrayString = (length: number) => Array.from({ length }, () => nanoid());
 
 export const generateTree = (deep: number): TreeNodeProps => {
   if (!deep) return { id: nanoid(), name: 'leaf', children: [] };

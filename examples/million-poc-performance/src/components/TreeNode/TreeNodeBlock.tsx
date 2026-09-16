@@ -15,6 +15,6 @@ const TreeNodeBlock = block(({ node }: { node: TreeNodeProps }) => {
       </div>
     </div>
   );
-});
+}) as React.FC<{ node: TreeNodeProps }>;
 
 export default TreeNodeBlock;

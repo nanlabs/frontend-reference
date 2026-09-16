@@ -14,6 +14,6 @@ const Tree = block(() => {
       <For each={[tree]}>{(value, i) => <TreeNodeBlock key={i} node={value as TreeNodeProps} />}</For>
     </div>
   );
-});
+}) as React.FC;
 
 export default Tree;
