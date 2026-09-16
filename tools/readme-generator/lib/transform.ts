@@ -91,9 +91,9 @@ export async function groupExamplesByTags(
       currentTag = currentTag[tag] as ExamplesTree;
     }
 
-    currentTag.examples = examples.filter((example) =>
-      example.tags.includes(tagWithSeparator)
-    ).sort((a, b) => a.name.localeCompare(b.name));
+    currentTag.examples = examples
+      .filter((example) => example.tags.includes(tagWithSeparator))
+      .sort((a, b) => a.name.localeCompare(b.name));
   }
 
   return examplesByTags;

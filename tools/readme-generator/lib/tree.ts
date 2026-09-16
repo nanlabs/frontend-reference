@@ -17,8 +17,9 @@ export const isExample = (example: unknown): example is Example => {
 };
 
 export const isExamplesArray = (examples: unknown): examples is Example[] => {
-  return Array.isArray(examples) &&
-    examples.every((example) => isExample(example));
+  return (
+    Array.isArray(examples) && examples.every((example) => isExample(example))
+  );
 };
 
 export type ExamplesTree = {
@@ -31,8 +32,8 @@ export const isExamplesTree = (
   return (
     typeof exampleTree === "object" &&
     exampleTree !== null &&
-    Object.values(exampleTree).every((value) =>
-      isExamplesTree(value) || Array.isArray(value)
+    Object.values(exampleTree).every(
+      (value) => isExamplesTree(value) || Array.isArray(value),
     )
   );
 };

@@ -1,6 +1,9 @@
 #!/usr/bin/env -S deno run --allow-read --allow-write --allow-run
 
-import { groupExamplesByTags, readExamplesFromJsonPaths } from "./lib/transform.ts";
+import {
+  groupExamplesByTags,
+  readExamplesFromJsonPaths,
+} from "./lib/transform.ts";
 import { generateContent, generateToc } from "./lib/generator.ts";
 
 async function main() {
