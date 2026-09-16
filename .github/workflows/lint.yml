@@ -32,8 +32,8 @@ jobs:
           # the root linter never has. Each example verifies itself via its own
           # install/build/lint, so skip import-resolution linting here while
           # keeping formatting and every other linter active on examples/.
-          TSX_FILTER_REGEX_EXCLUDE: ^examples/
-          TYPESCRIPT_ES_FILTER_REGEX_EXCLUDE: ^examples/
+          TSX_FILTER_REGEX_EXCLUDE: /examples/
+          TYPESCRIPT_ES_FILTER_REGEX_EXCLUDE: /examples/
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_TYPESCRIPT_STANDARD: false
           VALIDATE_JSCPD: false
