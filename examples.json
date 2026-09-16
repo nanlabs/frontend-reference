@@ -27,7 +27,12 @@
       "description": "A React library offering components that integrate with third-party services like Google ReCaptcha, enabling seamless external integrations.",
       "url": "https://www.npmjs.com/package/@nanlabs/react-thirdparty",
       "tags": ["Node Packages"],
-      "labels": ["React", "Components", "Third-Party Integrations", "Google ReCaptcha"]
+      "labels": [
+        "React",
+        "Components",
+        "Third-Party Integrations",
+        "Google ReCaptcha"
+      ]
     },
     {
       "name": "@nanlabs/thirdparty",
@@ -41,7 +46,12 @@
       "description": "A TypeScript library offering functional programming utilities, including type guards, error handling, and other tools to write cleaner, more maintainable code.",
       "url": "https://www.npmjs.com/package/@nanlabs/fp",
       "tags": ["Node Packages"],
-      "labels": ["Functional Programming", "TypeScript", "Utilities", "Error Handling"]
+      "labels": [
+        "Functional Programming",
+        "TypeScript",
+        "Utilities",
+        "Error Handling"
+      ]
     },
     {
       "name": "@nanlabs/eslint-config",
@@ -288,7 +298,13 @@
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-shell-react-vue-app/",
       "description": "An example showcasing a microfrontend project with shared React Router in a container application and independent Vue application.",
       "tags": ["Examples > Frontend > Microfrontend"],
-      "labels": ["React", "Vue", "Microfrontend", "Shared Router", "Integration"]
+      "labels": [
+        "React",
+        "Vue",
+        "Microfrontend",
+        "Shared Router",
+        "Integration"
+      ]
     },
     {
       "name": "Comparative Analysis between styled-components and Tailwind CSS",
@@ -322,7 +338,14 @@
       "description": "A guide comparing BrowserRouter, HashRouter, and MemoryRouter with practical React Router usage snippets and deployment/testing caveats.",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/react-router-router-types",
       "tags": ["Guides, Tutorials and Best Practices"],
-      "labels": ["React", "React Router", "Routing", "BrowserRouter", "HashRouter", "MemoryRouter"]
+      "labels": [
+        "React",
+        "React Router",
+        "Routing",
+        "BrowserRouter",
+        "HashRouter",
+        "MemoryRouter"
+      ]
     },
     {
       "name": "NextJS with SWR",
@@ -383,7 +406,13 @@
         "Guides, Tutorials and Best Practices",
         "Examples > Frontend > React"
       ],
-      "labels": ["Usability", "Heuristics", "UX", "Accessibility", "Best Practices"]
+      "labels": [
+        "Usability",
+        "Heuristics",
+        "UX",
+        "Accessibility",
+        "Best Practices"
+      ]
     },
     {
       "name": "GenAI Conversational UI Patterns",
@@ -403,7 +432,13 @@
         "Guides, Tutorials and Best Practices",
         "Examples > Frontend > React"
       ],
-      "labels": ["Code Generation", "Figma", "v0", "Prototyping", "Best Practices"]
+      "labels": [
+        "Code Generation",
+        "Figma",
+        "v0",
+        "Prototyping",
+        "Best Practices"
+      ]
     }
   ]
 }
