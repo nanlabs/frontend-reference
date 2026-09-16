@@ -1,7 +1,10 @@
 import { ExamplesTree, isExamplesArray, isExamplesTree } from "./tree.ts";
 
 function generateLinkForTag(tag: string): string {
-  return `#${tag.replace(/ /g, "-").toLowerCase().replace(/[^a-z0-9-]/g, "")}`;
+  return `#${tag
+    .replace(/ /g, "-")
+    .toLowerCase()
+    .replace(/[^a-z0-9-]/g, "")}`;
 }
 
 /**
@@ -62,10 +65,14 @@ export function generateContent(
     } else if (isExamplesArray(examples)) {
       content += `| Name | Description | Keywords |\n`;
       content += `| ---- | ----------- | -------- |\n`;
-      content += examples.map((example) => {
-        const keywords = example.labels.map((label) => `_${label}_`).join(", ");
-        return `| [${example.name}](${example.url}) | ${example.description} | ${keywords} |`;
-      }).join("\n");
+      content += examples
+        .map((example) => {
+          const keywords = example.labels
+            .map((label) => `_${label}_`)
+            .join(", ");
+          return `| [${example.name}](${example.url}) | ${example.description} | ${keywords} |`;
+        })
+        .join("\n");
       content += "\n";
     }
   }

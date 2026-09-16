@@ -1,6 +1,9 @@
 #!/usr/bin/env -S deno run --allow-read --allow-write --allow-run
 
-import { groupExamplesByTags, readExamplesFromJsonPaths } from "./lib/transform.ts";
+import {
+  groupExamplesByTags,
+  readExamplesFromJsonPaths,
+} from "./lib/transform.ts";
 import { generateContent, generateToc } from "./lib/generator.ts";
 
 async function main() {
@@ -27,7 +30,8 @@ async function main() {
 
   const shouldGenerateJson = Deno.args.includes("--json");
 
-  const examples = await readExamplesFromJsonPaths([...Deno.args.slice(1)]);
+  const jsonPaths = Deno.args.slice(1).filter((arg) => !arg.startsWith("-"));
+  const examples = await readExamplesFromJsonPaths(jsonPaths);
 
   if (shouldGenerateJson) {
     console.log(JSON.stringify(examples, null, 2));
