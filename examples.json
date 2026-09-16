@@ -5,91 +5,177 @@
       "name": "Storybook Playground",
       "description": "An application showcasing examples of React components, hooks, and libraries developed in the Nancy.js repository. It serves as a playground for testing and demonstrating these features using Storybook.",
       "url": "https://github.com/nanlabs/nancy.js/tree/main/apps/playground/",
-      "tags": ["Apps and Boilerplates"],
-      "labels": ["React", "Storybook", "Nancy.js", "Component Library"]
+      "tags": [
+        "Apps and Boilerplates"
+      ],
+      "labels": [
+        "React",
+        "Storybook",
+        "Nancy.js",
+        "Component Library"
+      ]
     },
     {
       "name": "@nanlabs/react-hooks",
       "description": "A collection of reusable React hooks designed to simplify state management, side effects, and other common patterns in React applications.",
       "url": "https://www.npmjs.com/package/@nanlabs/react-hooks",
-      "tags": ["Node Packages"],
-      "labels": ["React", "Hooks", "Custom Hooks", "State Management"]
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "React",
+        "Hooks",
+        "Custom Hooks",
+        "State Management"
+      ]
     },
     {
       "name": "@nanlabs/react-ui",
       "description": "A comprehensive library of React components designed to accelerate UI development with a consistent design system.",
       "url": "https://www.npmjs.com/package/@nanlabs/react-ui",
-      "tags": ["Node Packages"],
-      "labels": ["React", "Components", "UI", "Design System", "Reusable"]
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "React",
+        "Components",
+        "UI",
+        "Design System",
+        "Reusable"
+      ]
     },
     {
       "name": "@nanlabs/react-thirdparty",
       "description": "A React library offering components that integrate with third-party services like Google ReCaptcha, enabling seamless external integrations.",
       "url": "https://www.npmjs.com/package/@nanlabs/react-thirdparty",
-      "tags": ["Node Packages"],
-      "labels": ["React", "Components", "Third-Party Integrations", "Google ReCaptcha"]
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "React",
+        "Components",
+        "Third-Party Integrations",
+        "Google ReCaptcha"
+      ]
     },
     {
       "name": "@nanlabs/thirdparty",
       "description": "A utility library providing tools for integrating third-party services into web applications, including support for APIs like Google ReCaptcha.",
       "url": "https://www.npmjs.com/package/@nanlabs/thirdparty",
-      "tags": ["Node Packages"],
-      "labels": ["Third-Party Tools", "Integrations", "Web Development"]
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "Third-Party Tools",
+        "Integrations",
+        "Web Development"
+      ]
     },
     {
       "name": "@nanlabs/fp",
       "description": "A TypeScript library offering functional programming utilities, including type guards, error handling, and other tools to write cleaner, more maintainable code.",
       "url": "https://www.npmjs.com/package/@nanlabs/fp",
-      "tags": ["Node Packages"],
-      "labels": ["Functional Programming", "TypeScript", "Utilities", "Error Handling"]
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "Functional Programming",
+        "TypeScript",
+        "Utilities",
+        "Error Handling"
+      ]
     },
     {
       "name": "@nanlabs/eslint-config",
       "description": "A shared ESLint configuration to enforce consistent coding standards across JavaScript projects.",
       "url": "https://www.npmjs.com/package/@nanlabs/eslint-config",
-      "tags": ["Node Packages"],
-      "labels": ["ESLint", "Code Style", "JavaScript"]
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "ESLint",
+        "Code Style",
+        "JavaScript"
+      ]
     },
     {
       "name": "@nanlabs/eslint-config-ts",
       "description": "An ESLint configuration tailored for TypeScript projects, ensuring consistent and error-free TypeScript code.",
       "url": "https://www.npmjs.com/package/@nanlabs/eslint-config-ts",
-      "tags": ["Node Packages"],
-      "labels": ["ESLint", "TypeScript", "Code Style"]
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "ESLint",
+        "TypeScript",
+        "Code Style"
+      ]
     },
     {
       "name": "@nanlabs/eslint-config-react",
       "description": "An ESLint configuration optimized for React projects, promoting best practices and consistent code style.",
       "url": "https://www.npmjs.com/package/@nanlabs/eslint-config-react",
-      "tags": ["Node Packages"],
-      "labels": ["ESLint", "React", "TypeScript", "Code Style"]
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "ESLint",
+        "React",
+        "TypeScript",
+        "Code Style"
+      ]
     },
     {
       "name": "@nanlabs/eslint-config-next",
       "description": "An ESLint configuration designed for Next.js projects, ensuring adherence to best practices and consistent coding standards.",
       "url": "https://www.npmjs.com/package/@nanlabs/eslint-config-next",
-      "tags": ["Node Packages"],
-      "labels": ["ESLint", "Next.js", "TypeScript", "Code Style"]
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "ESLint",
+        "Next.js",
+        "TypeScript",
+        "Code Style"
+      ]
     },
     {
       "name": "React Boilerplate",
       "description": "A robust boilerplate for starting React projects with Vite, featuring CI/CD setup, Docker integration, hot reload for development, and production-ready optimizations.",
       "url": "https://github.com/nanlabs/react-boilerplate",
-      "tags": ["Apps and Boilerplates"],
-      "labels": ["React", "Boilerplate", "Vite", "CI/CD", "Docker"]
+      "tags": [
+        "Apps and Boilerplates"
+      ],
+      "labels": [
+        "React",
+        "Boilerplate",
+        "Vite",
+        "CI/CD",
+        "Docker"
+      ]
     },
     {
       "name": "Markstream React Streaming Markdown",
       "description": "A React + Vite example showing how to progressively render incomplete Markdown as an AI response arrives. It uses a local mock stream and markstream-react.",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/markstream-react-example",
-      "tags": ["Examples > Frontend > React"],
-      "labels": ["React", "Vite", "Streaming Markdown", "AI Chat", "Markstream"]
+      "tags": [
+        "Examples > Frontend > React"
+      ],
+      "labels": [
+        "React",
+        "Vite",
+        "Streaming Markdown",
+        "AI Chat",
+        "Markstream"
+      ]
     },
     {
       "name": "TypeScript Monorepo Boilerplate",
       "description": "A boilerplate for creating TypeScript monorepo projects using Turborepo, with support for NPM workspaces, Changesets, and a complete development setup.",
       "url": "https://github.com/nanlabs/ts-monorepo-boilerplate",
-      "tags": ["Apps and Boilerplates"],
+      "tags": [
+        "Apps and Boilerplates"
+      ],
       "labels": [
         "TypeScript",
         "Turborepo",
@@ -113,182 +199,341 @@
         "Guides, Tutorials and Best Practices",
         "Examples > Frontend > Website Optimization and Performance"
       ],
-      "labels": ["Core Web Vitals", "SEO", "Performance", "User Experience"]
+      "labels": [
+        "Core Web Vitals",
+        "SEO",
+        "Performance",
+        "User Experience"
+      ]
     },
     {
       "name": "Prop Drilling",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/hooks-prop-drilling/",
       "description": "An example demonstrating how to pass data from a parent component to a child component using props in React.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Props", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Props",
+        "State Management"
+      ]
     },
     {
       "name": "Context",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/hooks-context/",
       "description": "An example showcasing the use of React Context to share data between components efficiently.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Context API", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Context API",
+        "State Management"
+      ]
     },
     {
       "name": "Global State",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/hooks-global-state/",
       "description": "An example illustrating how to implement a global state using React Hooks for centralized state management.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Global State", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Global State",
+        "State Management"
+      ]
     },
     {
       "name": "Hookstate",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/hooks-hookstate/",
       "description": "An example demonstrating the use of Hookstate for efficient and scalable state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Hookstate", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Hookstate",
+        "State Management"
+      ]
     },
     {
       "name": "Teaful",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/hooks-teaful/",
       "description": "An example showcasing the use of Teaful for lightweight and simple state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Teaful", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Teaful",
+        "State Management"
+      ]
     },
     {
       "name": "XState",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/fsm-xstate/",
       "description": "An example illustrating the use of XState for managing state with finite state machines in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "XState", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "XState",
+        "State Management"
+      ]
     },
     {
       "name": "React Query",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/api-react-query/",
       "description": "An example demonstrating the use of React Query for efficient data fetching and caching in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "React Query", "Data Fetching"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "React Query",
+        "Data Fetching"
+      ]
     },
     {
       "name": "Effector",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/reactive-effector/",
       "description": "An example showcasing the use of Effector for reactive state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Effector", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Effector",
+        "State Management"
+      ]
     },
     {
       "name": "Akita",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/reactive-akita/",
       "description": "An example illustrating the use of Akita for state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Akita", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Akita",
+        "State Management"
+      ]
     },
     {
       "name": "Rxjs",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/reactive-rxjs/",
       "description": "An example demonstrating the use of Rxjs for reactive programming and state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Rxjs", "Reactive Programming"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Rxjs",
+        "Reactive Programming"
+      ]
     },
     {
       "name": "Storeon",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/reactive-storeon/",
       "description": "An example showcasing the use of Storeon for lightweight state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Storeon", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Storeon",
+        "State Management"
+      ]
     },
     {
       "name": "Jotai",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/atomic-jotai/",
       "description": "An example illustrating the use of Jotai for atomic state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Jotai", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Jotai",
+        "State Management"
+      ]
     },
     {
       "name": "Recoil",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/atomic-recoil/",
       "description": "An example demonstrating the use of Recoil for efficient state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Recoil", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Recoil",
+        "State Management"
+      ]
     },
     {
       "name": "AgileTs",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/atomic-agilets/",
       "description": "An example showcasing the use of AgileTs for scalable and maintainable state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "AgileTs", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "AgileTs",
+        "State Management"
+      ]
     },
     {
       "name": "Zustand",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/unidirectional-zustand/",
       "description": "An example illustrating the use of Zustand for unidirectional state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Zustand", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Zustand",
+        "State Management"
+      ]
     },
     {
       "name": "Redux Toolkit",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/unidirectional-redux-toolkit/",
       "description": "An example demonstrating the use of Redux Toolkit for unidirectional state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Redux Toolkit", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Redux Toolkit",
+        "State Management"
+      ]
     },
     {
       "name": "Rematch",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/unidirectional-rematch/",
       "description": "An example showcasing the use of Rematch for unidirectional state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Rematch", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Rematch",
+        "State Management"
+      ]
     },
     {
       "name": "Unistore",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/unidirectional-unistore/",
       "description": "An example illustrating the use of Unistore for unidirectional state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Unistore", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Unistore",
+        "State Management"
+      ]
     },
     {
       "name": "MobX",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/bidirectional-mobx/",
       "description": "An example demonstrating the use of MobX for bidirectional state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "MobX", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "MobX",
+        "State Management"
+      ]
     },
     {
       "name": "Valtio",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/bidirectional-valtio/",
       "description": "An example showcasing the use of Valtio for bidirectional state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "Valtio", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Valtio",
+        "State Management"
+      ]
     },
     {
       "name": "MobX State Tree",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/bidirectional-mobx-state-tree/",
       "description": "An example illustrating the use of MobX State Tree for bidirectional state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "MobX State Tree", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "MobX State Tree",
+        "State Management"
+      ]
     },
     {
       "name": "React Easy State",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/bidirectional-easy-state/",
       "description": "An example demonstrating the use of React Easy State for bidirectional state management in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "React Easy State", "State Management"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "React Easy State",
+        "State Management"
+      ]
     },
     {
       "name": "Microfrontend with Shared React Router and React Components",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-app-react-components/",
       "description": "An example showcasing a microfrontend project with shared React Router and React components for seamless integration.",
-      "tags": ["Examples > Frontend > Microfrontend"],
-      "labels": ["React", "Microfrontend", "Shared Router", "Integration"]
+      "tags": [
+        "Examples > Frontend > Microfrontend"
+      ],
+      "labels": [
+        "React",
+        "Microfrontend",
+        "Shared Router",
+        "Integration"
+      ]
     },
     {
       "name": "Microfrontend with Shared React Router and React Application",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-shell-react-app-shared-routing/",
       "description": "An example demonstrating a microfrontend project with shared React Router in a container application and independent React application.",
-      "tags": ["Examples > Frontend > Microfrontend"],
-      "labels": ["React", "Microfrontend", "Shared Router", "Integration"]
+      "tags": [
+        "Examples > Frontend > Microfrontend"
+      ],
+      "labels": [
+        "React",
+        "Microfrontend",
+        "Shared Router",
+        "Integration"
+      ]
     },
     {
       "name": "Microfrontend with Shared React Router and Vue Application",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-shell-react-vue-app/",
       "description": "An example showcasing a microfrontend project with shared React Router in a container application and independent Vue application.",
-      "tags": ["Examples > Frontend > Microfrontend"],
-      "labels": ["React", "Vue", "Microfrontend", "Shared Router", "Integration"]
+      "tags": [
+        "Examples > Frontend > Microfrontend"
+      ],
+      "labels": [
+        "React",
+        "Vue",
+        "Microfrontend",
+        "Shared Router",
+        "Integration"
+      ]
     },
     {
       "name": "Comparative Analysis between styled-components and Tailwind CSS",
@@ -298,14 +543,26 @@
         "Guides, Tutorials and Best Practices",
         "Examples > Frontend > Styling and CSS"
       ],
-      "labels": ["CSS", "styled-components", "Tailwind CSS", "UI Challenge"]
+      "labels": [
+        "CSS",
+        "styled-components",
+        "Tailwind CSS",
+        "UI Challenge"
+      ]
     },
     {
       "name": "Proof of Concept: Million, The Virtual DOM Replacement for React.",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/million-poc-performance/",
       "description": "A proof of concept showcasing Million as a virtual DOM replacement for React, with comparative performance analysis.",
-      "tags": ["Examples > Frontend > Virtual Dom"],
-      "labels": ["React", "Million", "Virtual DOM", "Performance"]
+      "tags": [
+        "Examples > Frontend > Virtual Dom"
+      ],
+      "labels": [
+        "React",
+        "Million",
+        "Virtual DOM",
+        "Performance"
+      ]
     },
     {
       "name": "React Security Best Practices Guide",
@@ -315,14 +572,28 @@
         "Guides, Tutorials and Best Practices",
         "Examples > Frontend > Security Best Practices"
       ],
-      "labels": ["React", "Security", "Best Practices", "Automated Testing"]
+      "labels": [
+        "React",
+        "Security",
+        "Best Practices",
+        "Automated Testing"
+      ]
     },
     {
       "name": "React Router Types Guide",
       "description": "A guide comparing BrowserRouter, HashRouter, and MemoryRouter with practical React Router usage snippets and deployment/testing caveats.",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/react-router-router-types",
-      "tags": ["Guides, Tutorials and Best Practices"],
-      "labels": ["React", "React Router", "Routing", "BrowserRouter", "HashRouter", "MemoryRouter"]
+      "tags": [
+        "Guides, Tutorials and Best Practices"
+      ],
+      "labels": [
+        "React",
+        "React Router",
+        "Routing",
+        "BrowserRouter",
+        "HashRouter",
+        "MemoryRouter"
+      ]
     },
     {
       "name": "NextJS with SWR",
@@ -332,28 +603,51 @@
         "Examples > Frontend > React State Management",
         "Examples > Frontend > NextJs"
       ],
-      "labels": ["NextJS", "SWR", "React", "Data Fetching"]
+      "labels": [
+        "NextJS",
+        "SWR",
+        "React",
+        "Data Fetching"
+      ]
     },
     {
       "name": "SWR",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/api-swr/",
       "description": "An example showcasing the use of SWR for efficient data fetching and caching in React applications.",
-      "tags": ["Examples > Frontend > React State Management"],
-      "labels": ["React", "SWR", "Data Fetching"]
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "SWR",
+        "Data Fetching"
+      ]
     },
     {
       "name": "React Native with expo router",
       "description": "An example demonstrating the use of expo router for efficient navigation in React Native applications.",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/react-native-expo-router/",
-      "tags": ["Examples > Frontend > React Native > Expo"],
-      "labels": ["React Native", "Expo", "Navigation"]
+      "tags": [
+        "Examples > Frontend > React Native > Expo"
+      ],
+      "labels": [
+        "React Native",
+        "Expo",
+        "Navigation"
+      ]
     },
     {
       "name": "React Native with expo router and shared routes",
       "description": "An example showcasing the use of expo router with shared routes for seamless navigation in React Native applications.",
       "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/react-native-expo-router-with-shared-routes/",
-      "tags": ["Examples > Frontend > React Native > Expo"],
-      "labels": ["React Native", "Expo", "Shared Routes"]
+      "tags": [
+        "Examples > Frontend > React Native > Expo"
+      ],
+      "labels": [
+        "React Native",
+        "Expo",
+        "Shared Routes"
+      ]
     },
     {
       "name": "The Ultimate React State Management Framework",
@@ -363,7 +657,12 @@
         "Guides, Tutorials and Best Practices",
         "Examples > Frontend > React State Management"
       ],
-      "labels": ["React", "State Management", "Framework", "Best Practices"]
+      "labels": [
+        "React",
+        "State Management",
+        "Framework",
+        "Best Practices"
+      ]
     },
     {
       "name": "Navigator Clipboard API Integration Guide",
@@ -373,7 +672,59 @@
         "Guides, Tutorials and Best Practices",
         "Examples > Frontend > Clipboard Integration"
       ],
-      "labels": ["Clipboard API", "Integration", "User Experience"]
+      "labels": [
+        "Clipboard API",
+        "Integration",
+        "User Experience"
+      ]
+    },
+    {
+      "name": "Nielsen Heuristics Evaluation Guide",
+      "description": "Score any interface against Jakob Nielsen's 10 usability heuristics with a practical 1-5 rubric for design reviews and QA.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/nielsen-heuristics-evaluation-guide",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > React"
+      ],
+      "labels": [
+        "Usability",
+        "Heuristics",
+        "UX",
+        "Accessibility",
+        "Best Practices"
+      ]
+    },
+    {
+      "name": "GenAI Conversational UI Patterns",
+      "description": "Design patterns for AI chat experiences: citations, personalization, privacy, accessibility, chunking, multimodality, memory, feedback, and errors.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/genai-conversational-ui-patterns",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > React"
+      ],
+      "labels": [
+        "GenAI",
+        "Chat",
+        "Conversational UI",
+        "UX Patterns",
+        "AI"
+      ]
+    },
+    {
+      "name": "Visual UI Code Generation Tools Matrix",
+      "description": "When to use v0, Plasmic, Builder.io, or Locofy for design-to-code, with a comparative matrix and use-case recommendations.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/visual-ui-code-generation-tools-matrix",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > React"
+      ],
+      "labels": [
+        "Code Generation",
+        "Figma",
+        "v0",
+        "Prototyping",
+        "Best Practices"
+      ]
     }
   ]
 }
