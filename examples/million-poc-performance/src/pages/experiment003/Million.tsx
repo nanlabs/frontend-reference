@@ -21,6 +21,6 @@ const Million = block(() => {
       <For each={array}>{(value) => <div key={value}>{value.substring(0, 2)}</div>}</For>
     </div>
   );
-});
+}) as React.FC;
 
 export default Million;

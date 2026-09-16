@@ -16,6 +16,6 @@ const Item = block(({ value }: { value: number }) => {
       {value}
     </div>
   );
-});
+}) as React.FC<{ value: number }>;
 
 export default Item;

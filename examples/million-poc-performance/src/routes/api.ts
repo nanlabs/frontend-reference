@@ -107,11 +107,11 @@ const topics = [
   },
 ];
 
-export function getResource({ resourceId, topicId }) {
-  return topics.find(({ id }) => id === topicId).resources.find(({ id }) => id === resourceId);
+export function getResource({ resourceId, topicId }: { resourceId: string; topicId: string }) {
+  return topics.find(({ id }) => id === topicId)?.resources.find(({ id }) => id === resourceId);
 }
 
-export function getTopic(topicId) {
+export function getTopic(topicId: string) {
   return topics.find(({ id }) => id === topicId);
 }
 
