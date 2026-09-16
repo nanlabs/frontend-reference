@@ -27,13 +27,15 @@ jobs:
         uses: super-linter/super-linter/slim@v8
         env:
           FILTER_REGEX_EXCLUDE: .*yarn\.lock.*
-          # Examples are standalone projects: their imports only resolve with
-          # their own node_modules installed (plus bundler path aliases), which
-          # the root linter never has. Each example verifies itself via its own
-          # install/build/lint, so skip import-resolution linting here while
-          # keeping formatting and every other linter active on examples/.
-          TSX_FILTER_REGEX_EXCLUDE: /examples/
-          TYPESCRIPT_ES_FILTER_REGEX_EXCLUDE: /examples/
+          # Examples are standalone projects: their third-party imports only
+          # resolve with their own node_modules installed (plus bundler path
+          # aliases), which the root linter never has, so TSX/TYPESCRIPT_ES
+          # can only report false-positive n/no-missing-import errors here.
+          # Each example verifies itself via its own install/build/lint (see
+          # issue #470); formatting and every other linter stay active on
+          # examples/.
+          VALIDATE_TSX: false
+          VALIDATE_TYPESCRIPT_ES: false
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_TYPESCRIPT_STANDARD: false
           VALIDATE_JSCPD: false
