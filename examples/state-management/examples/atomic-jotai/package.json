@@ -8,7 +8,7 @@
     "clean": "rm -fr node_modules || true"
   },
   "dependencies": {
-    "jotai": "^2.20.2",
+    "jotai": "^3.0.0",
     "react": "^17.0.2",
     "react-dom": "^19.2.8"
   },
