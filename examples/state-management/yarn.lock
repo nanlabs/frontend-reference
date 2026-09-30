@@ -1695,9 +1695,9 @@ mobx-state-tree@^8.0.0:
     ts-essentials "^9.4.1"
 
 mobx@^7.0.0:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/mobx/-/mobx-7.0.3.tgz#4b5e52c3120c5f7aa82e60d19dad63cee0a5067d"
-  integrity sha512-KopyyzqZ8xT1fqxFNl8ItKKMpGifRe2ySaNAHs80/cx0mL1bpJtJ46S+FSyzXKRjW0TODWj5zwq/Y9hUdJUy4w==
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/mobx/-/mobx-7.0.5.tgz#2b46d84ae56b966318ebf0ebc45e0bd4ea45067c"
+  integrity sha512-Q3TZfmgJhhHfEVyQ2Wl+1Q9nkfH+y3DnoAB/Gny/gm7Yga43kMdwmfwa8lO4aiGmkty3NNy4rgjfjVM1D8vYAQ==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
