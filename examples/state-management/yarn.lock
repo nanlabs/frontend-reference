@@ -2852,9 +2852,9 @@ wsrun@^5.2.0:
     yargs "^13.0.0"
 
 xstate@^5.32.5:
-  version "5.32.6"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.32.6.tgz#ad830bb4ef9bf6b119b2250744e08cc259ab5157"
-  integrity sha512-WfA8WNrh6r9osuGwVm+aIPM4jmMW2LKHV1Yv9thYpOtL4HVF/kobh95K/O8v2jDCpDmP2EoY+6uvuqHXCZ6ZLw==
+  version "5.33.2"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.33.2.tgz#ec543abcb1ec79e5784f35d21231d7debff821f7"
+  integrity sha512-8tC7yXgeCvpT8gKEeEje6ikJJG1wpnoLiXe+HfECW8m10ubMd3QxKOwWA8KxPJVBcLwfdRoMKYxIBGYKmo37/A==
 
 xtend@~4.0.1:
   version "4.0.2"
