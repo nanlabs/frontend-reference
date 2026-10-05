@@ -41,7 +41,7 @@ This example shows how to use [SWR](https://swr.vercel.app/) to fetch and mutate
 - The implementation of the library is as much as complete possible without crossing the line of the scope of the example.
 - The implementation of other functionalities was kept to a minimum to focus on the use of the library.
 - In order to keep it simple a mock in-memory [DB](./src/lib/db.ts) was made to ensure data persistence for demonstration proposes.
-- Simple endpoints implementation [here](./pages/api/todos.ts)
+- Simple endpoints implementation [here](./src/pages/api/todos.ts)
 
 ### Walkthrough
 
