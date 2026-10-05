@@ -4,7 +4,7 @@ This repository contains a collection of example applications demonstrating vari
 
 ## Getting Started 🚀
 
-To install and run the example applications, follow these steps:
+Use Node.js 20, as pinned in `.node-version`, and Yarn Classic to install and run the example applications:
 
 ```sh
 % yarn
