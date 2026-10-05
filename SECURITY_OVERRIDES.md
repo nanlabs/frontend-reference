@@ -2,6 +2,7 @@
 
 - Reviewed: 2026-10-05
 - Next review due: 2027-01-03
+- Tracking issue: #560
 
 ## `decode-uri-component@0.5.0`
 
