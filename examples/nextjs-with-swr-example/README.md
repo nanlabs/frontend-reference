@@ -72,22 +72,26 @@ This was chosen because it gives more control over the mutations considering tha
    1. The [url](./src/hooks/useUpdateTodo.ts#L7) to make the request
    2. The fetcher function, that must be an async function for remote mutation.
    3. `options`:
-      1. `optimisticData`: same as mutate's optimisticData
-      2. `revalidate = true`: same as mutate's revalidate
-      3. `populateCache = false`: same as mutate's populateCache, but the default is false
-      4. `rollbackOnError` = true: same as mutate's rollbackOnError
-      5. `throwOnError` = true: same as mutate's throwOnError
-      6. `onSuccess(data, key, config)`:　 callback function when a remote mutation has been finished successfully
-      7. `onError(err, key, config)`: callback function when a remote mutation has returned an error
+   4. `optimisticData`: same as mutate's optimisticData
+   5. `revalidate = true`: same as mutate's revalidate
+   6. `populateCache = false`: same as mutate's populateCache, but the default is false
+   7. `rollbackOnError` = true: same as mutate's rollbackOnError
+   8. `throwOnError` = true: same as mutate's throwOnError
+   9. `onSuccess(data, key, config)`:　 callback function when a remote mutation has been finished successfully
+   10. `onError(err, key, config)`: callback function when a remote mutation has returned an error
 4. Regarding the fetcher function [`mutator`](./src/hooks/_mutator.ts#L6) here are some **considerations**:
    1. Take into account that it is defined using generics for more type flexibility.
    2. Expects two parameters that are required for the library:
-      1. `url`: of type string
-      2. `{ arg }`: arguments that needs to cross the bridge between the mutator function and the custom hook implementation, this will be internally passed to the function when the trigger function is [executed](./src/hooks/useUpdateTodo.ts#L21) under the name of `extraOptions` and allows to pass request methods, headers and body if necessary. Please note that here common headers like tokens can be defined [`Code`](./src/hooks/_mutator.ts#L12). Custom types can be checked right here:
-         1. [SWRArgOptions](./src/types/index.ts#L14) for mutator function
-         2. [ExtraSWROptions](./src/types/index.ts#L8) for trigger function param
-   3. Has generic type for type flexibility.
-   4. If the request fails it should throw an error as this is expected for the library.
+   3. `url`: of type string
+   4. `{ arg }`: arguments passed from the mutator function to the custom hook.
+      The hook forwards them as `extraOptions` when the trigger function runs
+      ([implementation](./src/hooks/useUpdateTodo.ts#L21)). They can carry request
+      methods, headers, and body. Shared headers such as tokens can be set in
+      the mutator ([code](./src/hooks/_mutator.ts#L12)). See the custom types:
+      1. [SWRArgOptions](./src/types/index.ts#L14) for mutator function
+      2. [ExtraSWROptions](./src/types/index.ts#L8) for trigger function param
+   5. Has generic type for type flexibility.
+   6. If the request fails it should throw an error as this is expected for the library.
 5. Going back to the custom [hook](./src/hooks/useUpdateTodo.ts#L6), when it's instantiated some generics types are being passed instead of using the default ones. This is necessary as by default the `trigger` extraOptions are of type `never`.
    1. By default: `Data = any` overwritten by: `Todo`
    2. By default: `Error = any` overwritten by: `unknown`
