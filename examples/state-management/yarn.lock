@@ -1683,9 +1683,9 @@ mkdirp@^0.5.1:
     minimist "^1.2.5"
 
 mobx-react-lite@^5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/mobx-react-lite/-/mobx-react-lite-5.0.3.tgz#6bd00e1a760d93430ee5f5187481fa729b16e586"
-  integrity sha512-8qT/d/8Cg8ljt+heKhoFHNoqgedyeSGzdTixT0lgbFMMFlWfHUcXHZ8UD63eQi3ELjkxaH1VU07lXWhRwM0cVA==
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/mobx-react-lite/-/mobx-react-lite-5.1.0.tgz#90ff78031ad36c97b980ae7e708db90656c20e2c"
+  integrity sha512-++LQTCRr4FJCWuaEvYl5gCtGBwOpOwrnWjm9uhCUDI5nmkzLR8eT1jgMeYfJ8wc88YOYyC/ygjw2KpYPBYGsww==
 
 mobx-state-tree@^8.0.0:
   version "8.0.0"
