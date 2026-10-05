@@ -19,7 +19,7 @@
     "expo-status-bar": "~57.0.1",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "react-native": "0.87.1",
+    "react-native": "0.86.3",
     "react-native-gesture-handler": "~3.3.0",
     "react-native-safe-area-context": "5.10.0",
     "react-native-screens": "~4.28.0",
@@ -43,7 +43,8 @@
     "ws": "^8.21.0",
     "@xmldom/xmldom": "^0.8.15",
     "fast-xml-parser": "^5.7.0",
-    "turbo-stream": "^3.0.0"
+    "turbo-stream": "^3.0.0",
+    "decode-uri-component": "0.5.0"
   },
   "private": true
 }
