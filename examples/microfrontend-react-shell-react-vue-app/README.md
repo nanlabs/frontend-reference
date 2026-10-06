@@ -28,6 +28,10 @@ To build the project, follow these steps:
 2. Navigate to the "react-app" folder and run the command `npm run build`.
 3. Navigate to the "vue-app" folder and run the command `npm run build`.
 
+For a production container build, set `VITE_MFE_REACT_APP_DOMAIN` and
+`VITE_MFE_VUE_APP_DOMAIN` to the deployed React and Vue application origins.
+The container config defaults both remotes to their local development ports.
+
 ## Project Structure
 
 The project follows the following structure:
