@@ -2,7 +2,11 @@
 
 ## Introduction
 
-This repository contains a microfrontend project that demonstrates the usage of a shared router in a container application made with React and two independent applications made with React and Vue respectively. The container application utilizes webpack module federation, while the individual applications are built with Vite and the module federation plugin ([vite-plugin-federation](https://github.com/originjs/vite-plugin-federation)).
+This repository contains a microfrontend project that demonstrates shared routing
+in a container application made with React and two independent applications made
+with React and Vue. The container uses webpack module federation, while the
+individual applications are built with Vite and the module federation plugin
+([vite-plugin-federation](https://github.com/originjs/vite-plugin-federation)).
 
 The container manages the routing of the microfrontend, using react-router-dom for navigation and Zustand for state management of the global store. The React application is rendered at "/react" path, while the Vue application is rendered at "/vue" path. The React app receives state updates from the container and can modify the shared state, while the Vue app only receives the state from the container to display the results.
 
