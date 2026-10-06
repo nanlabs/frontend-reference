@@ -1,5 +1,5 @@
 import React from 'react';
-import { TouchableOpacity, Text, View, StyleSheet, ImageComponent } from 'react-native';
+import { TouchableOpacity, Text, View, StyleSheet } from 'react-native';
 
 interface ButtonProps {
   icon: string;
@@ -11,7 +11,7 @@ interface ButtonProps {
 const SettingsButton: React.FC<ButtonProps> = ({ icon, title, subtitle, onPress }) => {
   return (
     <TouchableOpacity style={styles.button} onPress={onPress}>
-      <View style={styles.iconContainer}></View>
+      <View style={styles.iconContainer} />
       <View style={styles.textContainer}>
         <Text style={styles.title}>{title}</Text>
         <Text style={styles.subtitle}>{subtitle}</Text>

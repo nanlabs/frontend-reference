@@ -2,7 +2,6 @@ import { Stack } from 'expo-router';
 import React from 'react';
 import {
   Image,
-  Keyboard,
   KeyboardAvoidingView,
   Platform,
   SafeAreaView,
@@ -10,7 +9,6 @@ import {
   StyleSheet,
   Text,
   TextInput,
-  TouchableOpacity,
   View,
 } from 'react-native';
 

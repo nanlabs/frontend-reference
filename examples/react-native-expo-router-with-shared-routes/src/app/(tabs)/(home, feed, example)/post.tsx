@@ -1,10 +1,11 @@
-import Button from '@/components/Button';
 import { useLocalSearchParams, useRouter, useSegments } from 'expo-router';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import Button from '@/components/Button';
+
 export default function Post() {
-  const [tabs, segment] = useSegments();
+  const [tabs, segment] = useSegments<'/(tabs)/(home, feed, example)'>();
   const router = useRouter();
   const params = useLocalSearchParams<{ randomId: string }>();
 

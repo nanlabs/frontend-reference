@@ -1,10 +1,11 @@
 import { router, useSegments } from 'expo-router';
 import React from 'react';
-import { StyleSheet, Text, Touchable, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+
 import Button from '@/components/Button';
 
 export default function Home() {
-  const [tabs, segment] = useSegments();
+  const [tabs, segment] = useSegments<'/(tabs)/(home, feed, example)'>();
 
   return (
     <View style={styles.container}>
