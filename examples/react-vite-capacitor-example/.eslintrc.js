@@ -14,9 +14,8 @@ module.exports = {
     commonjs: true,
     node: true,
     es2020: true,
-    'jest/globals': true,
   },
-  plugins: ['react', 'jsx-a11y', 'import', 'jest'],
+  plugins: ['react', 'jsx-a11y', 'import'],
   ignorePatterns: ['.eslintrc.js'],
   overrides: [
     {
