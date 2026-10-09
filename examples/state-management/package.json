@@ -22,7 +22,7 @@
     "picomatch": "^2.3.2"
   },
   "devDependencies": {
-    "concurrently": "^10.0.4",
+    "concurrently": "^10.0.6",
     "wsrun": "^5.2.0"
   }
 }
