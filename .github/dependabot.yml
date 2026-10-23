@@ -36,6 +36,14 @@ updates:
       eslint:
         patterns:
           - "eslint*"
+      # Catch-all, kept last: Dependabot uses the first matching group, so
+      # the named groups above win. Majors outside them stay single PRs.
+      minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
 
   - package-ecosystem: "npm"
     directory: "/examples/million-poc-performance"
@@ -68,6 +76,14 @@ updates:
         patterns:
           - "eslint*"
           - "@typescript-eslint/*"
+      # Catch-all, kept last: Dependabot uses the first matching group, so
+      # the named groups above win. Majors outside them stay single PRs.
+      minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
 
   - package-ecosystem: "npm"
     directory: "/examples/react-vite-capacitor-example"
@@ -100,6 +116,14 @@ updates:
         patterns:
           - "eslint*"
           - "@typescript-eslint/*"
+      # Catch-all, kept last: Dependabot uses the first matching group, so
+      # the named groups above win. Majors outside them stay single PRs.
+      minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
 
   - package-ecosystem: "npm"
     directory: "/examples/react-vite-electron-example"
@@ -137,6 +161,14 @@ updates:
         patterns:
           - "eslint*"
           - "@typescript-eslint/*"
+      # Catch-all, kept last: Dependabot uses the first matching group, so
+      # the named groups above win. Majors outside them stay single PRs.
+      minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
 
   - package-ecosystem: "npm"
     directory: "/examples/react-native-expo-router"
@@ -161,6 +193,14 @@ updates:
       eslint:
         patterns:
           - "eslint*"
+      # Catch-all, kept last: Dependabot uses the first matching group, so
+      # the named groups above win. Majors outside them stay single PRs.
+      minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
 
   - package-ecosystem: "npm"
     directory: "/examples/react-native-expo-router-with-shared-routes"
@@ -185,6 +225,14 @@ updates:
       eslint:
         patterns:
           - "eslint*"
+      # Catch-all, kept last: Dependabot uses the first matching group, so
+      # the named groups above win. Majors outside them stay single PRs.
+      minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
 
   - package-ecosystem: "npm"
     directory: "/examples/state-management"
@@ -197,6 +245,14 @@ updates:
         patterns:
           - "concurrently"
           - "wsrun"
+      # Catch-all, kept last: Dependabot uses the first matching group, so
+      # the named groups above win. Majors outside them stay single PRs.
+      minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
 
   - package-ecosystem: "npm"
     directory: "/tools/danger"
