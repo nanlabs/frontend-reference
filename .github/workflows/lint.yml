@@ -24,7 +24,7 @@ jobs:
           # list of changed files within `super-linter`
           fetch-depth: 0
       - name: Lint Code Base
-        uses: super-linter/super-linter/slim@v8
+        uses: super-linter/super-linter/slim@v9
         env:
           FILTER_REGEX_EXCLUDE: .*yarn\.lock.*
           # Examples are standalone projects: their third-party imports only
