@@ -1659,9 +1659,9 @@ mobx-state-tree@^8.0.0:
     ts-essentials "^9.4.1"
 
 mobx@^7.0.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/mobx/-/mobx-7.1.0.tgz#afdc675ecba30942a818184f9e2f697a38fe74fa"
-  integrity sha512-5eGlbA7iJ7bUwtdLaUTu7g9DDQsTo3bhtVkWD/Rii24zhjhSPdTXJ5sjKVd9n7AaJ/h6xlmUvUsyO6B1zK9HVQ==
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/mobx/-/mobx-7.1.1.tgz#12c833bf2d29ea23d83dc40babf0b852608993a8"
+  integrity sha512-IBnj1k7aoSlpNcuI5tr3/nykyDIUzm0+7Zu9IKBJn0IhJgeIKp26KLAsCFvCPpDmcjiszfg5XOeTJTQi/JoEOw==
 
 ms@2.1.2:
   version "2.1.2"
@@ -2489,6 +2489,6 @@ zustand@4.0.0:
     use-sync-external-store "1.2.0"
 
 zustand@^5.0.14:
-  version "5.0.15"
-  resolved "https://registry.yarnpkg.com/zustand/-/zustand-5.0.15.tgz#42bddf35647cb80a818a8943a69f6618c126fcfe"
-  integrity sha512-MpSEjRiBkA9crSYeOUH32rJC7SVqAbm0Fqcqge/bUi2PPoLcBWKOsG+C8mevmpr8TwXHBVkChbbJiyvkE+i/3A==
+  version "5.0.16"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-5.0.16.tgz#5d1fbffc43529a4313dd61b7183b93450638e9d4"
+  integrity sha512-Uv7e327ihlCfayfja3hDc0M64Upev1LWBKpRobdK4NyovDDPeeX4imWXc/wzC1yc6fkYPoAY/ncKVPAs2jrtQw==
